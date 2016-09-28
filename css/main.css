@@ -1,9 +1,11 @@
 .biruang-container {
-	width: 1170px;
-	margin: auto;
+	/*width: 1170px;
+	margin: auto;*/
+	padding-left: 0px;
+	padding-right: 0px;
 }
 .biruang-container .container {
-	margin: 0px;
+	/*margin: 0px;*/
     padding: 0px;
 }
 .biruang-navbar {
@@ -12,7 +14,6 @@
     border: none;
     box-shadow: none;
     height: 83px;
-    border-bottom: 1px solid #eeeeee;
     text-transform: uppercase;
     font-size: 12px;
     color: #7e7f84;
@@ -27,7 +28,9 @@
 }
 .biruang-navbar .biruang-nav-1 .biruang-nav-1-item {
 	margin-right: 30px;
-	/* max-width: 225px; */
+}
+.biruang-navbar .biruang-nav-1 .biruang-nav-1-item:not(:last-child) {
+	letter-spacing: 1px;
 }
 .biruang-navbar .biruang-nav-1 .biruang-nav-1-item p span {
 	
@@ -35,25 +38,29 @@
 .biruang-logo {
 	margin: 15px 0px;
 	font-size: 22.65px;
+	letter-spacing: -1px;
 }
 .biruang-header {
 	padding: 0px;
 }
-.biruang-corner-top-right {/* padding-top: 15px; */margin-top: -12px;}
+.biruang-corner-top-right {
+	margin-top: -12px;
+}
 .biruang-corner-top-right ul {
 	border: 1px solid #eeeeee;
-	/* margin-top: -2px; */
 	padding-top: 10px;
 }
 .biruang-corner-top-right ul li {
 	margin: 0px;
 	padding: 0px 20px;
-	/* margin-left: 20px; */
-	/* margin-right: 20px; */
 }
 .no-border {
     border: 0;
-    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+    box-shadow: none;
+}
+.biruang-divider {
+	margin-top: 0px;
+    margin-bottom: 0px;
 }
 .biruang-menu {
 	font-size: 14px;
@@ -68,6 +75,47 @@
 .biruang-menu .biruang-menu-item .biruang-menu-item-link:hover {
 	color: #f45a40 !important;
 }
+.biruang-menu-item .biruang-menu-dropdown {
+	padding: 30px 0px;
+}
+.biruang-menu-item .biruang-menu-dropdown .biruang-menu-dropdown-item a {
+	padding: 0px 20px;
+	color: #777;
+}
 .biruang-search-form {
 	padding: 0px;
+}
+.biruang-slider {
+	padding: 0px !important;
+}
+.biruang-slider img {
+	min-height: 660px;
+	max-height: 660px;
+}
+.biruang-slider .biruang-indicators {
+	bottom: 120px;
+}
+.biruang-slider .biruang-caption {
+	left: 0px !important;
+    margin-bottom: 215px;
+    padding-left: 85px;
+    text-align: left;
+}
+.biruang-slider .biruang-caption h3 {
+	left: 0px !important;
+	font-size: 59.3px;
+}
+.biruang-slider .biruang-caption p {
+	font-size: 14px;
+	text-align: justify;
+}
+.biruang-slider .biruang-caption .biruang-button {
+	background-color: #f45a40;
+    background-image: none;
+    border: 0;
+    color: #ffffff;
+    padding: 10px 24px;
+    border-radius: 0px;
+    margin-top: 5px;
+    letter-spacing: 1px;
 }
