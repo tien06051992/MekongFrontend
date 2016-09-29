@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
 
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -23,72 +24,58 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <nav class="top-header">
-      <div id="container">
-        <div class="container">
-            <div class="top-left">
+    <div class="top-header">    
+        <div class="gretong-container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 top-left">
             <ul>
-               <li><a href=""> Help</a></li>
-               <li><a href=""> Contact </a></li>
-               <li><a href=""> Delivery Infomation </a></li>
+               <li><a href="#"> Help</a></li>
+               <li><a href="#"> Contact </a></li>
+               <li><a href="#"> Delivery Infomation </a></li>
             </ul>
             </div>
-            <div class="top-right">
+            <div class="col-xs-12 col-sm-6 col-md-6 top-right">
               <p> <i class="fa fa-phone pr-5 pl-10"></i> Call us: 032 2352 782 </p>
             </div>
-        </div> <!--end /.container-->
-      </div> <!--end /#container-->
-    </nav>
-
-    <div class="header">
-      <div id="container">
-        <div class="container">
-          <div class="row">
-          <div class="col-lg-8 col-md-8 col-sm-2">
-
-            <img src="images/logo.jpg" alt="Logo" height="45px" width="180px">
-          <div>
-
-          <div class="col-lg-6 col-md-6 col-sm-6">
-            <ul>
-                <li><a href="#">LOGIN</a></li>
-                <li><a href="#">REGISTER </a></li>
-                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true">
-                </i> My cart (0) $0</a>
-                </li>
-                <li><a class="active" href="#">CHECKOUT</a></li>
-            </ul>
-          </div>
-            <!--<form>
-              <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Search">    
-                  <span class="input-group-addon"><i class="fa fa-search" aria-hidden="true"></i></span>
-              </div>
-            </form>-->
-        </div>
-        </div><!--end/.container-->
-      </div><!--end/#container-->
-    </div>
-    <div class="clearfix"></div>
-    <div id="container">
-      <div class="container">
-        <nav class="navbar myNav2">
-        
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+          </div> 
+        </div> <!--end /.gretong-container-->
+    </div><!--end /.top-header-->
+    <div class="row header">
+        <div class="gretong-container">
+            <div class="col-xs-4 col-sm-6 col-md-6">
+                <a href="" class="navbar-brand" id="gretong-logo"><img src="images/logo.jpg" alt="logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <ul class="nav navbar-nav navbar-right gretong-navbar">
+                    <li><a href="#" class="border">LOGIN</a></li>
+                    <li><a href="#">REGISTER</a></li>
+                    <li><a href="#"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> My cart (0): $0</a></li>
+                    <li><a href="#" class="active">CHECKOUT</a></li>             
+                    <form>
+                        <div class="form-group input-header-pos">
+                            <input type="text" name="" class="input-header" placeholder="Search">
+                            <i class="fa fa-search icon-pos" aria-hidden="true"></i>
+                        </div>
+                    </form>
+                </ul>
+            </div>
+        </div> <!--/.gretong-container-->
+    </div> <!--/.end header-->
+    <nav class="navbar navbar-default gretong-nav" role="navigation">
+      <div class="gretong-container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"></a>
-          </div>
+            <a href="" class="navbar-brand"></a>
+        </div>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="#"> HOME </a></li>
+        <div class="navbar-collapse collapse  gretong-menu" id="menu">
+          <ul class="nav navbar-nav">
+                <li><a class="active" href="#"> HOME </a></li>
                 <li><a href="#"> NEW ARRIVALS </a></li>
                 <li><a href="#"> TUXEDO </a></li>
                 <li><a href="#"> SWEATER </a></li>
@@ -96,22 +83,22 @@
                 <li><a href="#"> GLASSES </a></li>
                 <li><a href="#"> T-SHIRT</a></li>
                 <li><a href="#"> WATCHES </a></li>
-            
-            </ul>
+          </ul>
+        </div>
+      </div> <!--end container-->
+    </nav>
 
-          </div><!-- /.navbar-collapse -->
-        </nav>
-      </div><!-- /.container -->
-    </div>
-    <!--Hình anh san pham-->
-    <div id="container">
-      <div class="container">
+    
+    <!--Noi dung-->
+    <div class="clearfix"></div>
+
+    <div class="container gretong-container">
         <!-- Product List-->
         <div class="row product">
            <ul>
               <li>
                 <div class="img-product"> 
-                  <img src="images/hinh1.jpg">
+                  <img src="images/hinh1.jpg" class="img-responsive img-size1">
                   <div class="detail1">
                     <h3> NEW ARRIVALS </h3>
                     <p> REVIVE YOUR WARDROBE WITH CHIC KNITS </p>
@@ -121,7 +108,7 @@
               </li>
               <li>
                 <div class="img-product"> 
-                  <img src="images/hinh2.jpg">
+                  <img src="images/hinh2.jpg" class="img-responsive img-size1">
                   <div class="detail1">
                     <h3> TUXEDO  </h3>
                     <p> REVIVE YOUR WARDROBE WITH CHIC KNITS </p>
@@ -132,7 +119,7 @@
 
               <li>
                 <div class="img-product"> 
-                  <img src="images/hinh3.jpg">
+                  <img src="images/hinh3.jpg" width="640px" height="250px" class="img-responsive img-size2">
                   <div class="detail1">
                     <h3> SWEATER  </h3>
                     <p> REVIVE YOUR WARDROBE WITH CHIC KNITS </p>
@@ -142,9 +129,9 @@
               </li>
               <li>
                 <div class="img-product"> 
-                  <img src="images/hinh4.jpg">
+                  <img src="images/hinh4.jpg" class="img-responsive img-size3">
                   <div class="detail2">
-                    <h4 class="pleft">Trekking Shoes </h4>
+                    <h4 class="pleft"> Trekking Shoes </h4>
                     <h4 class="pright"> <a href="#"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
                     </h4>
                   </div>
@@ -153,7 +140,7 @@
 
               <li>
                 <div class="img-product"> 
-                  <img src="images/hinh5.jpg">
+                  <img src="images/hinh5.jpg" class="img-responsive img-size3">
                   <div class="detail2">
                     <h4 class="pleft">Casual Glasses </h4>
                     <h4 class="pright"> <a href="#"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
@@ -163,7 +150,7 @@
               </li>
               <li>
                 <div class="img-product"> 
-                  <img src="images/hinh6.jpg">
+                  <img src="images/hinh6.jpg" class="img-responsive img-size3">
                   <div class="detail1">
                     <h3> FRESH LOOK T-SHIRT  </h3>
                     <a href="#"> SHOP NOW </a>
@@ -172,7 +159,7 @@
               </li>
               <li>
                 <div class="img-product"> 
-                  <img src="images/hinh7.jpg">
+                  <img src="images/hinh7.jpg" class="img-responsive img-size3">
                   <div class="detail2">
                     <h4 class="pleft">Elegant Watches</h4>
                     <h4 class="pright"> <a href="#"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
@@ -180,48 +167,129 @@
                   </div>
                 </div>
               </li>
+           </ul>
+     
         </div>
-
 
         <div class="clearfix"></div>
         <!--special offers-->
-        <p> <hr class="hleft pull-left"> <span class="tieude-offer"> Special Offers </span><hr class="hright pull-right"></p>
+        <div class="tieude-offer-box"> <hr class="hleft pull-left"> <span class="tieude-offer"> Special Offers </span><hr class="hright pull-right"></div>
 
         <div class="clearfix"></div>
 
         <div class="row offers">
-           <div class="col-sm-3 col-md-3">
-              <img src="images/spec1.jpg" class="img-responsive" alt="">
+           <div class="col-xs-6 col-sm-3 col-md-3">
+              <div class="offer-view">
+                <img src="images/spec1.jpg" class="img-responsive" alt="">
+                <div class="offer-view-detail">
+                    <h3> <a href="#"> VIEW </a></h3>
+                </div>
+              </div>
               <div class="offer-content">
-                <p>Lorem ipsum dolor <br> ONLY $40.00</p>
+                <p> Lorem ipsum dolor <br> <span> ONLY $40.00 </span> </p>
               </div>
            </div>
-           <div class="col-sm-3 col-md-3">
+           <div class="col-xs-6 col-sm-3 col-md-3">
               <img src="images/spec2.jpg" class="img-responsive" alt="">
+              <div class="offer-content">
+                <p> Consectetur adipis <br> <span> ONLY $60.00 </span></p>
+              </div>
            </div>
-           <div class="col-sm-3 col-md-3">
+           <div class="col-xs-6 col-sm-3 col-md-3">
               <img src="images/spec3.jpg" class="img-responsive" alt="">
+              <div class="offer-content">
+                <p> Commodo consequat <br> <span> ONLY $14.20 </span> </p>
+              </div>
            </div>
-           <div class="col-sm-3 col-md-3">
+           <div class="col-xs-6 col-sm-3 col-md-3">
               <img src="images/spec4.jpg" class="img-responsive" alt="">
+              <div class="offer-content">
+                <p> Voluptate velit <br> <span> ONLY $37.00 </span></p>
+              </div>
            </div>
-        </div>
+        </div> <!--end special offers-->
 
-      </div>
-    </div>
-  
-    
-    <footer>
-      <p>&copy; Company 2015</p>
-    </footer>
+        <div class="clearfix"></div>
+        <!--Contact Information-->
+        <div class="form-contact">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <ul class="icon-social">
+                FOLLOW US ON
+                <li style="padding-left:30px"> <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                <li> <a href=""><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="input-group">
+                <input type="text" class="form-control form-contact-input" placeholder="Enter your email to join our newsletter" aria-describedby="basic-addon2">
+                <span class="input-group-addon" id="basic-addon2">JOIN</span>
+              </div>
+            </div>
+          </div><!--end row-->
+        </div><!--end form-contact-->
+     
+        <!--Footer-->
+        <footer class="footer">
+            <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-3">
+                <h4>CUSTOMER CARE</h4>
+                <p> Help Center</p>
+                <p> FAQ</p>
+                <p>How To Buy</p>
+                <p>Delivery</p>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-3">
+                <h4>ABOUT US</h4>
+                  <p> Our Stories </p>
+                  <p> Press </p>
+                  <p> Career </p>
+                  <p> Contact </p>             
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-3">
+                <h4>MY ACCOUNT</h4>
+                <p>Login</p>
+                <p>My Cart</p>
+                <p>Order History</p>
+                <p>Payment</p>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-3">
+                <h4>OUR STORIES</h4>
+                <p><i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Haji Muhidin, Blok G no.69</p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i>   025-2839341</p>
+                <p> <i class="fa fa-envelope" aria-hidden="true"></i>   solo@gretong.com</p>
+              </div>
+            </div>
+            <div class="row last-footer">
+              <div class="col-xs-12 col-sm-8 col-md-8">
+                <p> <span> © 2015 Gretongan </span> 
+                    <span> Terms & Condition  </span>
+                    <span> Privacy Policy </span> </p>
+              </div>
+            </div>
+        </footer>
       
+    </div> <!--end container-->
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
     <script src="js/vendor/bootstrap.min.js"></script>
 
     <script src="js/main.js"></script>
+    <script>
+        $(document).jQuery(document).ready(function($) {
+            $(".offer-view").hover(function() {
+                $(".offer-view-detail").css("opacity":"1", "visibility" : "visible");
+                $(".offer-content").css("background-color","#e5e4e2");
+            }, function() {
+                /* Stuff to do when the mouse leaves the element */
+                $(".offer-view-detail").css("opacity",0);
+                $(".offer-content").css("background-color","#fff");
+            });
+        });
+    </script>
 
   </body>
 </html>
