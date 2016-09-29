@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/reponsive.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -27,7 +29,7 @@
     <!-- Custom Container -->
     <div id="container">
         <!-- Header -->
-        <div class="container">
+        <div class="container" data-spy="affix" data-offset-top="250">
             <nav class="navbar navbar-default biruang-navbar">
                 <div class="container-fluid biruang-navbar-container">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -165,26 +167,201 @@
             <div class="biruang-title-popular-products">
                 <h1>POPULAR PRODUCTS</h1>
             </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <img class="img-responsive" src="img/product-demo.jpg" alt="slider-item" style="width:100%">
-                    <h2><a class="biruang-product-title" href="">FOOTBALL SHOES</a></h2>
-                    <p class="biruang-product-desc">Lorem ipsum dolor sit amet, consectetur adipiscing, vivamus congue nulla leo, quis imperdiet magna.</p>
+            <div class="owl-carousel biruang-popular-product">
+                <div class="item">
+                    <div class="biruang-popular-img">
+                        <div class="biruang-product-main-img">
+                            <a href=""><img class="img-responsive" src="img/popular-item.jpg" alt="slider-item"></a>
+                        </div>
+                        <div class="owl-carousel biruang-product-img-slider">
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-3.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="biruang-product-desc">
+                        <h4><a href="">Nike Tailwind Loose</a></h4>
+                        <h5><a href="">Running Tank Top</a></h5>
+                        <p>The Nike Tailwind Loose Women's Running Tank Top is made with sweat-wicking fabric to help you stay dry and comfortable on your run.</p>
+                    </div>
+                    <div>
+                        <p class="biruang-product-divider"></p>
+                    </div>
+                    <div class="biruang-product-sale">
+                        <p class="pull-left biruang-product-price">$ 36.99</p>
+                        <p class="pull-right biruang-product-interactive">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <img class="img-responsive" src="img/product-demo-1.jpg" alt="slider-item" style="width:100%">
-                    <h2><a class="biruang-product-title" href="">MODERN CLOTHES</a></h2>
-                    <p class="biruang-product-desc">Lorem ipsum dolor sit amet, consectetur adipiscing, vivamus congue nulla leo, quis imperdiet magna.</p>
+                <div class="item">
+                    <div class="biruang-popular-img">
+                        <div class="biruang-product-main-img">
+                            <a href=""><img class="img-responsive" src="img/popular-item.jpg" alt="slider-item"></a>
+                        </div>
+                        <div class="owl-carousel biruang-product-img-slider">
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-3.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="biruang-product-desc">
+                        <h4><a href="">Nike Tailwind Loose</a></h4>
+                        <h5><a href="">Running Tank Top</a></h5>
+                        <p>The Nike Tailwind Loose Women's Running Tank Top is made with sweat-wicking fabric to help you stay dry and comfortable on your run.</p>
+                    </div>
+                    <div>
+                        <p class="biruang-product-divider"></p>
+                    </div>
+                    <div class="biruang-product-sale">
+                        <p class="pull-left biruang-product-price">$ 36.99</p>
+                        <p class="pull-right biruang-product-interactive">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <img class="img-responsive" src="img/product-demo-2.jpg" alt="slider-item" style="width:100%">
-                    <h2><a class="biruang-product-title" href="">BAGS & ACCESSORIES</a></h2>
-                    <p class="biruang-product-desc">Lorem ipsum dolor sit amet, consectetur adipiscing, vivamus congue nulla leo, quis imperdiet magna.</p>
+                <div class="item">
+                    <div class="biruang-popular-img">
+                        <div class="biruang-product-main-img">
+                            <a href=""><img class="img-responsive" src="img/popular-item.jpg" alt="slider-item"></a>
+                        </div>
+                        <div class="owl-carousel biruang-product-img-slider">
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-3.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="biruang-product-desc">
+                        <h4><a href="">Nike Tailwind Loose</a></h4>
+                        <h5><a href="">Running Tank Top</a></h5>
+                        <p>The Nike Tailwind Loose Women's Running Tank Top is made with sweat-wicking fabric to help you stay dry and comfortable on your run.</p>
+                    </div>
+                    <div>
+                        <p class="biruang-product-divider"></p>
+                    </div>
+                    <div class="biruang-product-sale">
+                        <p class="pull-left biruang-product-price">$ 36.99</p>
+                        <p class="pull-right biruang-product-interactive">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <img class="img-responsive" src="img/product-demo-2.jpg" alt="slider-item" style="width:100%">
-                    <h2><a class="biruang-product-title" href="">BAGS & ACCESSORIES</a></h2>
-                    <p class="biruang-product-desc">Lorem ipsum dolor sit amet, consectetur adipiscing, vivamus congue nulla leo, quis imperdiet magna.</p>
+                <div class="item">
+                    <div class="biruang-popular-img">
+                        <div class="biruang-product-main-img">
+                            <a href=""><img class="img-responsive" src="img/popular-item.jpg" alt="slider-item"></a>
+                        </div>
+                        <div class="owl-carousel biruang-product-img-slider">
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-3.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="biruang-product-desc">
+                        <h4><a href="">Nike Tailwind Loose</a></h4>
+                        <h5><a href="">Running Tank Top</a></h5>
+                        <p>The Nike Tailwind Loose Women's Running Tank Top is made with sweat-wicking fabric to help you stay dry and comfortable on your run.</p>
+                    </div>
+                    <div>
+                        <p class="biruang-product-divider"></p>
+                    </div>
+                    <div class="biruang-product-sale">
+                        <p class="pull-left biruang-product-price">$ 36.99</p>
+                        <p class="pull-right biruang-product-interactive">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="biruang-popular-img">
+                        <div class="biruang-product-main-img">
+                            <a href=""><img class="img-responsive" src="img/popular-item.jpg" alt="slider-item"></a>
+                        </div>
+                        <div class="owl-carousel biruang-product-img-slider">
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-3.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
+                            </div>
+                            <div class="biruang-slider-item">
+                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="biruang-product-desc">
+                        <h4><a href="">Nike Tailwind Loose</a></h4>
+                        <h5><a href="">Running Tank Top</a></h5>
+                        <p>The Nike Tailwind Loose Women's Running Tank Top is made with sweat-wicking fabric to help you stay dry and comfortable on your run.</p>
+                    </div>
+                    <div>
+                        <p class="biruang-product-divider"></p>
+                    </div>
+                    <div class="biruang-product-sale">
+                        <p class="pull-left biruang-product-price">$ 36.99</p>
+                        <p class="pull-right biruang-product-interactive">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        </p>
+                    </div>
                 </div>
             </div>
             <!-- /Popular Products Row -->
@@ -232,7 +409,7 @@
                         <div class="col-md-4 biruang-send-mail">
                             <form class="form-inline biruang-send-mail-form pull-right">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="exampleInputName2" placeholder="EONY321V@GMAIL.COM">
+                                    <input type="email" class="form-control" id="exampleInputName2" placeholder="EONY321V@GMAIL.COM">
                                 </div>
                                 <button type="submit" class="btn btn-default">SIGN UP</button>
                             </form>
@@ -250,25 +427,70 @@
                         <h2>Our Stores</h2>
                         <p>Feel free to visit our stores or contact us. 1401 South Grand Avenue Los Angeles, CA 90015 (213) 748-2411</p>
                         <p>100 Fairview Drive Franklin, VA 23851 (757) 569-6100 </p>
+                        <p class="biruang-below-brand">
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        </p>
                     </div>
                     <div class="col-md-3">
                         <h2>Blog posts</h2>
                         <div class="biruang-post">
-                            <h3>Justin Bieber confirmed that he is gay.</h3>
+                            <h3><a href="">Justin Bieber confirmed that he is gay.</a></h3>
                             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed auctor elit.</span>
                         </div>
                         <div class="biruang-post">
-                            <h3>New sexy sport clothes are here!</h3>
+                            <h3><a href="">New sexy sport clothes are here!</a></h3>
                             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed auctor elit.</span>
                         </div>
                         <div class="biruang-post">
-                            <h3>Summer sales are coming!</h3>
+                            <h3><a href="">Summer sales are coming!</a></h3>
                             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed auctor elit.</span>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 biruang-footer-list">
+                        <h2>Support</h2>
+                        <ul>
+                            <li>
+                                <ul class="pull-left">
+                                    <li><a href="">Terms & Conditions</a></li>
+                                    <li><a href="">FAQ</a></li>
+                                    <li><a href="">Payment</a></li>
+                                    <li><a href="">Refunds</a></li>
+                                    <li><a href="">Track Order</a></li>
+                                    <li><a href="">Services</a></li>
+                                    <li><a href="">Privacy & Security</a></li>
+                                    <li><a href="">Careers</a></li>
+                                    <li><a href="">Press</a></li>
+                                    <li><a href="">Corporate Information</a></li>
+                                </ul>
+                                <ul class="pull-right">
+                                    <li><a href="">Sizing</a></li>
+                                    <li><a href="">Ordering</a></li>
+                                    <li><a href="">Shipping</a></li>
+                                    <li><a href="">Return Policy</a></li>
+                                    <li><a href="">Affiliates</a></li>
+                                    <li><a href="">Find A Store</a></li>
+                                    <li><a href="">Site Map</a></li>
+                                    <li><a href="">Sign Up & Save</a></li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </li>
+                        </ul>
                     </div>
                     <div class="col-md-3">
+                        <h2>Contact Us</h2>
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control no-border-radius" id="exampleInputEmail1" placeholder="YOUR E-MAIL...">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control no-border-radius" rows="4" placeholder="YOUR TEXT..." style="resize:none;"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default no-border-radius">SEND MESSAGE</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -278,6 +500,7 @@
         <!-- /container -->
         <script src="js/vendor/jquery-1.11.2.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
         <script src="js/main.js"></script>
     </div>
     <!-- /Custom Container -->

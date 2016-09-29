@@ -16,8 +16,8 @@ and open the template in the editor.
 
 @media only screen and (min-width: 960px) and (max-width: 1240px) {
     /***
-	 * Index
-	 */
+     * Index
+     */
     .biruang-menu .biruang-menu-item .biruang-menu-item-link {
         padding-left: 30px;
     }
@@ -25,13 +25,24 @@ and open the template in the editor.
         display: none;
     }
     .biruang-footer .biruang-top-footer .biruang-send-mail {
-        padding-left: 0px;
+        /*padding-left: 0px;*/
     }
     .biruang-footer .biruang-top-footer .biruang-send-mail-form {
         float: none !important;
     }
     .biruang-footer .biruang-top-footer .biruang-send-mail-form button {
-        padding: 10px 160px;
+        padding: 10px 0px;
+        display: block;
+        width: 100%;
+    }
+    .biruang-footer .biruang-top-footer p {
+        text-align: center;
+    }
+    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:after {
+        width: 0px;
+    }
+    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:before {
+        width: 0px;
     }
 }
 
@@ -41,8 +52,8 @@ and open the template in the editor.
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     /***
-	 * Index
-	 */
+     * Index
+     */
     .biruang-menu .biruang-menu-item .biruang-menu-item-link {
         padding-left: 30px;
     }
@@ -50,13 +61,24 @@ and open the template in the editor.
         display: none;
     }
     .biruang-footer .biruang-top-footer .biruang-send-mail {
-        padding-left: 0px;
+        /*padding-left: 0px;*/
     }
     .biruang-footer .biruang-top-footer .biruang-send-mail-form {
         float: none !important;
     }
     .biruang-footer .biruang-top-footer .biruang-send-mail-form button {
-        padding: 10px 160px;
+        padding: 10px 0px;
+        display: block;
+        width: 100%;
+    }
+    .biruang-footer .biruang-top-footer p {
+        text-align: center;
+    }
+    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:after {
+        width: 0px;
+    }
+    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:before {
+        width: 0px;
     }
 }
 
@@ -66,8 +88,8 @@ and open the template in the editor.
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     /***
-	 * Index
-	 */
+     * Index
+     */
     .biruang-menu .biruang-menu-item .biruang-menu-item-link {
         padding-left: 30px;
     }
@@ -75,13 +97,24 @@ and open the template in the editor.
         display: none;
     }
     .biruang-footer .biruang-top-footer .biruang-send-mail {
-        padding-left: 0px;
+        /*padding-left: 0px;*/
     }
     .biruang-footer .biruang-top-footer .biruang-send-mail-form {
         float: none !important;
     }
     .biruang-footer .biruang-top-footer .biruang-send-mail-form button {
-        padding: 10px 160px;
+        padding: 10px 0px;
+        display: block;
+        width: 100%;
+    }
+    .biruang-footer .biruang-top-footer p {
+        text-align: center;
+    }
+    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:after {
+        width: 0px;
+    }
+    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:before {
+        width: 0px;
     }
 }
 
@@ -91,8 +124,8 @@ and open the template in the editor.
 
 @media only screen and (min-width: 100px) and (max-width: 479px) {
     /***
-	 * Index
-	 */
+     * Index
+     */
     .biruang-menu .biruang-menu-item .biruang-menu-item-link {
         padding-left: 30px;
     }
@@ -100,12 +133,23 @@ and open the template in the editor.
         display: none;
     }
     .biruang-footer .biruang-top-footer .biruang-send-mail {
-        padding-left: 0px;
+        /*padding-left: 0px;*/
     }
     .biruang-footer .biruang-top-footer .biruang-send-mail-form {
         float: none !important;
     }
     .biruang-footer .biruang-top-footer .biruang-send-mail-form button {
-        padding: 10px 160px;
+        padding: 10px 0px;
+        display: block;
+        width: 100%;
+    }
+    .biruang-footer .biruang-top-footer p {
+        text-align: center;
+    }
+    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:after {
+        width: 0px;
+    }
+    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:before {
+        width: 0px;
     }
 }
