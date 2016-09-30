@@ -38,11 +38,16 @@ and open the template in the editor.
     .biruang-footer .biruang-top-footer p {
         text-align: center;
     }
-    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:after {
+    .biruang-title-popular-products h1:before,
+    .biruang-title-popular-products h1:after {
         width: 0px;
     }
-    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:before {
+    .biruang-title-popular-products h1:before,
+    .biruang-title-popular-products h1:before {
         width: 0px;
+    }
+    .biruang-slider .biruang-caption {
+        display: none;
     }
 }
 
@@ -74,11 +79,16 @@ and open the template in the editor.
     .biruang-footer .biruang-top-footer p {
         text-align: center;
     }
-    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:after {
+    .biruang-title-popular-products h1:before,
+    .biruang-title-popular-products h1:after {
         width: 0px;
     }
-    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:before {
+    .biruang-title-popular-products h1:before,
+    .biruang-title-popular-products h1:before {
         width: 0px;
+    }
+    .biruang-slider .biruang-caption {
+        display: none;
     }
 }
 
@@ -110,11 +120,20 @@ and open the template in the editor.
     .biruang-footer .biruang-top-footer p {
         text-align: center;
     }
-    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:after {
+    .biruang-title-popular-products h1:before,
+    .biruang-title-popular-products h1:after {
         width: 0px;
     }
-    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:before {
+    .biruang-title-popular-products h1:before,
+    .biruang-title-popular-products h1:before {
         width: 0px;
+    }
+    .biruang-map-responsive {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .biruang-slider .biruang-caption {
+        display: none;
     }
 }
 
@@ -146,10 +165,19 @@ and open the template in the editor.
     .biruang-footer .biruang-top-footer p {
         text-align: center;
     }
-    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:after {
+    .biruang-title-popular-products h1:before,
+    .biruang-title-popular-products h1:after {
         width: 0px;
     }
-    .biruang-title-popular-products h1:before, .biruang-title-popular-products h1:before {
+    .biruang-title-popular-products h1:before,
+    .biruang-title-popular-products h1:before {
         width: 0px;
+    }
+    .biruang-map-responsive {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .biruang-slider .biruang-caption {
+        display: none;
     }
 }

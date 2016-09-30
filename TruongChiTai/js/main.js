@@ -24,30 +24,13 @@ $(document).ready(function() {
         }
     })
 
-    $('.owl-carousel.biruang-product-img-slider').owlCarousel({
-        loop: false,
-        items: 3,
-        margin: 0,
-        nav: true,
-        dots: false,
-        navText: [
-            "<i class='fa fa-angle-left biruang-circle-right biruang-angle-left' aria-hidden='true'></i>",
-            "<i class='fa fa-angle-right biruang-circle-left biruang-angle-right' aria-hidden='true'></i>"
-        ],
-        autoplay: true,
-        autoplayHoverPause: true,
-        responsive: {
-            0: {
-                items: 3
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 3
-            }
-        }
-    })
+    $('.biruang-slider-item img').on('click', function() {
+        var src = $(this).attr('src');
+        $(this).parent().parent().siblings(".biruang-product-main-img").children().children().attr('src', src);
+        $(this).parent().parent().siblings(".biruang-product-main-img").children().attr('href', src);
+        $('.biruang-slider-item').css('border-bottom', 'none');
+        $(this).parent().css('border-bottom', '3px solid #636363');
+    });
 
     var maxHeight = -1;
 
@@ -58,4 +41,15 @@ $(document).ready(function() {
     $('.biruang-popular-product .item').each(function() {
         $(this).height(maxHeight);
     });
+
+
+    $(".biruang-zoom i").on("click", function() {
+        $(".biruang-product-main-img a").trigger("click");
+    });
+    
+    /* This is basic - uses default settings */
+
+    $("a#single_image").fancybox();
+
+
 });

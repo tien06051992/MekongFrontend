@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/reponsive.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -29,7 +30,7 @@
     <!-- Custom Container -->
     <div id="container">
         <!-- Header -->
-        <div class="container" data-spy="affix" data-offset-top="250">
+        <div class="container">
             <nav class="navbar navbar-default biruang-navbar">
                 <div class="container-fluid biruang-navbar-container">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -67,37 +68,39 @@
                     </div>
                     <!-- /Top Header -->
                     <hr class="biruang-divider" />
-                    <!-- Main Menu -->
-                    <div class="collapse navbar-collapse biruang-menu" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li class="dropdown biruang-menu-item">
-                                <a class="biruang-menu-item-link" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
-                                <ul class="dropdown-menu biruang-menu-dropdown">
-                                    <li class="biruang-menu-dropdown-item"><a href="#">LOREM</a></li>
-                                    <li class="biruang-menu-dropdown-item"><a href="#">DOREM SIA</a></li>
-                                    <li class="biruang-menu-dropdown-item"><a href="#">ERIK</a></li>
-                                    <li class="biruang-menu-dropdown-item"><a href="#">IPSUM PADAMANS</a></li>
-                                    <li class="biruang-menu-dropdown-item"><a href="#">BEHANCE</a></li>
-                                </ul>
-                            </li>
-                            <li class="biruang-menu-item"><a class="biruang-menu-item-link" href="#">MEN</a></li>
-                            <li class="biruang-menu-item"><a class="biruang-menu-item-link" href="#">WOMEN</a></li>
-                            <li class="biruang-menu-item"><a class="biruang-menu-item-link" href="#">KIDS</a></li>
-                            <li class="biruang-menu-item"><a class="biruang-menu-item-link" href="#">SALE</a></li>
-                            <li class="biruang-menu-item"><a class="biruang-menu-item-link" href="#">ABOUT US</a></li>
-                            <li class="biruang-menu-item"><a class="biruang-menu-item-link" href="#">SUPPORT</a></li>
-                        </ul>
-                        <form class="navbar-form navbar-left biruang-search-form">
-                            <div class="form-group">
-                                <i class="fa fa-search" aria-hidden="true"></i>
-                                <input type="text" class="form-control no-border" placeholder="Search...">
-                            </div>
-                        </form>
-                    </div>
-                    <!-- /Main Menu -->
                 </div>
                 <!-- /.container-fluid -->
             </nav>
+        </div>
+        <div class="biruang-menu-container" data-spy="affix" data-offset-top="81">
+            <!-- Main Menu -->
+            <div class="collapse navbar-collapse biruang-menu" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown biruang-menu-item">
+                        <a class="biruang-menu-item-link" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                        <ul class="dropdown-menu biruang-menu-dropdown">
+                            <li class="biruang-menu-dropdown-item"><a href="#">LOREM</a></li>
+                            <li class="biruang-menu-dropdown-item"><a href="#">DOREM SIA</a></li>
+                            <li class="biruang-menu-dropdown-item"><a href="#">ERIK</a></li>
+                            <li class="biruang-menu-dropdown-item"><a href="#">IPSUM PADAMANS</a></li>
+                            <li class="biruang-menu-dropdown-item"><a href="#">BEHANCE</a></li>
+                        </ul>
+                    </li>
+                    <li class="biruang-menu-item"><a class="biruang-menu-item-link" href="#">MEN</a></li>
+                    <li class="biruang-menu-item"><a class="biruang-menu-item-link" href="#">WOMEN</a></li>
+                    <li class="biruang-menu-item"><a class="biruang-menu-item-link" href="#">KIDS</a></li>
+                    <li class="biruang-menu-item"><a class="biruang-menu-item-link" href="#">SALE</a></li>
+                    <li class="biruang-menu-item"><a class="biruang-menu-item-link" href="#">ABOUT US</a></li>
+                    <li class="biruang-menu-item"><a class="biruang-menu-item-link" href="#">SUPPORT</a></li>
+                </ul>
+                <form class="navbar-form navbar-left biruang-search-form">
+                    <div class="form-group">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="text" class="form-control no-border" placeholder="Search...">
+                    </div>
+                </form>
+            </div>
+            <!-- /Main Menu -->
         </div>
         <!-- /Header -->
         <!-- Slider -->
@@ -170,24 +173,21 @@
             <div class="owl-carousel biruang-popular-product">
                 <div class="item">
                     <div class="biruang-popular-img">
-                        <div class="biruang-product-main-img">
-                            <a href=""><img class="img-responsive" src="img/popular-item.jpg" alt="slider-item"></a>
+                        <div class="biruang-zoom">
+                            <i class="fa fa-search-plus" aria-hidden="true"></i>
                         </div>
-                        <div class="owl-carousel biruang-product-img-slider">
+                        <div class="biruang-product-main-img">
+                            <a id="single_image" href="img/popular-item.jpg"><img class="img-responsive" src="img/popular-item.jpg" alt="slider-item"></a>
+                        </div>
+                        <div class="biruang-product-img-slider">
                             <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
+                                <img class="img-responsive" src="img/popular-item-1.jpg" alt="">
                             </div>
                             <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                                <img class="img-responsive" src="img/popular-item-2.jpg" alt="">
                             </div>
                             <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-3.jpg" alt=""></a>
-                            </div>
-                            <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
-                            </div>
-                            <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                                <img class="img-responsive" src="img/popular-item-3.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -209,24 +209,21 @@
                 </div>
                 <div class="item">
                     <div class="biruang-popular-img">
-                        <div class="biruang-product-main-img">
-                            <a href=""><img class="img-responsive" src="img/popular-item.jpg" alt="slider-item"></a>
+                        <div class="biruang-zoom">
+                            <i class="fa fa-search-plus" aria-hidden="true"></i>
                         </div>
-                        <div class="owl-carousel biruang-product-img-slider">
+                        <div class="biruang-product-main-img">
+                            <a id="single_image" href="img/popular-item.jpg"><img class="img-responsive" src="img/popular-item.jpg" alt="slider-item"></a>
+                        </div>
+                        <div class="biruang-product-img-slider">
                             <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
+                                <img class="img-responsive" src="img/popular-item-1.jpg" alt="">
                             </div>
                             <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                                <img class="img-responsive" src="img/popular-item-2.jpg" alt="">
                             </div>
                             <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-3.jpg" alt=""></a>
-                            </div>
-                            <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
-                            </div>
-                            <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                                <img class="img-responsive" src="img/popular-item-3.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -248,24 +245,21 @@
                 </div>
                 <div class="item">
                     <div class="biruang-popular-img">
-                        <div class="biruang-product-main-img">
-                            <a href=""><img class="img-responsive" src="img/popular-item.jpg" alt="slider-item"></a>
+                        <div class="biruang-zoom">
+                            <i class="fa fa-search-plus" aria-hidden="true"></i>
                         </div>
-                        <div class="owl-carousel biruang-product-img-slider">
+                        <div class="biruang-product-main-img">
+                            <a id="single_image" href="img/popular-item.jpg"><img class="img-responsive" src="img/popular-item.jpg" alt="slider-item"></a>
+                        </div>
+                        <div class="biruang-product-img-slider">
                             <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
+                                <img class="img-responsive" src="img/popular-item-1.jpg" alt="">
                             </div>
                             <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                                <img class="img-responsive" src="img/popular-item-2.jpg" alt="">
                             </div>
                             <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-3.jpg" alt=""></a>
-                            </div>
-                            <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
-                            </div>
-                            <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                                <img class="img-responsive" src="img/popular-item-3.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -287,24 +281,21 @@
                 </div>
                 <div class="item">
                     <div class="biruang-popular-img">
-                        <div class="biruang-product-main-img">
-                            <a href=""><img class="img-responsive" src="img/popular-item.jpg" alt="slider-item"></a>
+                        <div class="biruang-zoom">
+                            <i class="fa fa-search-plus" aria-hidden="true"></i>
                         </div>
-                        <div class="owl-carousel biruang-product-img-slider">
+                        <div class="biruang-product-main-img">
+                            <a id="single_image" href="img/popular-item.jpg"><img class="img-responsive" src="img/popular-item.jpg" alt="slider-item"></a>
+                        </div>
+                        <div class="biruang-product-img-slider">
                             <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
+                                <img class="img-responsive" src="img/popular-item-1.jpg" alt="">
                             </div>
                             <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                                <img class="img-responsive" src="img/popular-item-2.jpg" alt="">
                             </div>
                             <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-3.jpg" alt=""></a>
-                            </div>
-                            <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
-                            </div>
-                            <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                                <img class="img-responsive" src="img/popular-item-3.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -326,24 +317,21 @@
                 </div>
                 <div class="item">
                     <div class="biruang-popular-img">
-                        <div class="biruang-product-main-img">
-                            <a href=""><img class="img-responsive" src="img/popular-item.jpg" alt="slider-item"></a>
+                        <div class="biruang-zoom">
+                            <i class="fa fa-search-plus" aria-hidden="true"></i>
                         </div>
-                        <div class="owl-carousel biruang-product-img-slider">
+                        <div class="biruang-product-main-img">
+                            <a id="single_image" href="img/popular-item.jpg"><img class="img-responsive" src="img/popular-item.jpg" alt="slider-item"></a>
+                        </div>
+                        <div class="biruang-product-img-slider">
                             <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
+                                <img class="img-responsive" src="img/popular-item-1.jpg" alt="">
                             </div>
                             <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                                <img class="img-responsive" src="img/popular-item-2.jpg" alt="">
                             </div>
                             <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-3.jpg" alt=""></a>
-                            </div>
-                            <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-1.jpg" alt=""></a>
-                            </div>
-                            <div class="biruang-slider-item">
-                                <a href=""><img class="img-responsive" src="img/popular-item-2.jpg" alt=""></a>
+                                <img class="img-responsive" src="img/popular-item-3.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -501,6 +489,7 @@
         <script src="js/vendor/jquery-1.11.2.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="owlcarousel/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
         <script src="js/main.js"></script>
     </div>
     <!-- /Custom Container -->
