@@ -22,10 +22,6 @@ body{
 	overflow-x: hidden;
 }
 
-/*#container .container{
-	width: 960px;
-	margin:0 auto;
-}*/
 .gretong-container {
   max-width: 960px;
   margin: 0 auto;
@@ -33,6 +29,10 @@ body{
   position: relative;
   padding-right: 10px;
 }
+
+/**
+	*-----Top Header-----
+*/
 
 .top-header{
 	height:30px;
@@ -60,7 +60,9 @@ body{
 	text-align: right;
 	line-height: 30px;
 }
-/*---Header---*/
+/**
+	*---Header---
+*/
 .header{
 	background-color:#e2eef6;
 	position: relative;
@@ -104,10 +106,12 @@ body{
 .icon-pos {
     position:absolute;
     bottom:12px;
-    right:20px;
+    right:12px;
 }
 
-/*---Menu---*/
+/**
+	*---Menu---
+*/
 
 .gretong-nav{
 	margin: 0;
@@ -124,40 +128,25 @@ body{
 	padding: 0;
 	top:0;
 }
-
+.gretong-menu ul{
+	margin:0;
+	padding:0;
+}
 .gretong-menu ul li a{
 	color:#3f3d3d;
 	font-size: 13px;
 	font-weight: 500;
 	text-transform: uppercase;
+	padding: 15px 25px !important;
 }
-.gretong-menu ul li a.active, .gretong-menu ul li a:hover {
+.gretong-menu ul li a.active, 
+.gretong-menu ul li a:hover {
 	background-color: #e4e4e4;
 }
-/*.gretong-nav #gretong-logo{
-	padding:43px 0;
-}
-.gretong-navbar{
-	width: 50%;
-	float: right;
-}
-.gretong-navbar ul{
-	width: 100%;
-}
-.gretong-navbar ul li{
-	width: auto;
-	padding:10px 30px !important;
-}
 
-.input-header{
-	height:40px;
-	background-color: #e2eef6;
-	border: 1px solid #e2eef6;
-	width: 100%;
-	margin-top: 13px;
-}*/
-
-/*-----San pham--------*/
+/**
+	*-----Product List--------
+*/
 .product{
 	padding-left: 5px;
 	padding-right: 5px;
@@ -173,7 +162,11 @@ body{
 }
 .img-product{
 	position: relative;
-	color: #fff
+	color: #fff;
+	overflow: hidden;
+}
+.img-product  a{
+	color: #fff;
 }
 .img-product .detail1{
 	position: absolute;
@@ -181,10 +174,9 @@ body{
 	width: 100%;
 	height: 60%;
 	text-align: center;
-}
-
-.img-product .detail1 a, .img-product .detail2 a{
-	color: #fff;
+	transition: all 0.5s;
+	opacity:0;
+	visibility: hidden;
 }
 .img-product .detail1 p, 
 .img-product .detail1 h3{
@@ -199,12 +191,19 @@ body{
 }
 .img-product .detail1 h3{
 	font-size: 22px;
+	font-family: fontDisplay;
 }
 .img-product .detail2{
 	height:40%;
 	width: 100%;
 	position: absolute;
 	bottom:0;
+	left: -100px;
+	transition: all .5s;
+	opacity:0;
+	visibility: hidden;
+	font-family: fontDisplay;
+	font-size: 18px;
 }
 .img-product .detail2 .pleft, .img-product .detail2 .pright{
 	bottom: 23px;
@@ -218,12 +217,25 @@ body{
 	right:20px;
 }
 
-/*------Special offer-------*/
-.tieude-offer-box{
+.img-product:hover > .detail1{
+	visibility: visible;
+	opacity: 1;
+}
+.img-product:hover > .detail2{
+	visibility: visible;
+	opacity: 1;
+	left:0;
+}
+
+/**
+	*------Special offer-------
+*/
+
+.title-offer-box{
 	margin: 50px auto;
 	width: 100%;
 }
-.tieude-offer{
+.title-offer{
 	font-size: 20px;
 	text-align: center;
 	border: 1px solid #eae9e8;
@@ -233,34 +245,28 @@ body{
 .offers{
 	padding:0;
 }
-
-.offer-view{
+.offers .offer-view{
 	position: relative;
 	width: 100%;
 	height: 100%;
 }
-.offer-view .offer-view-detail{
-	top:0;
-	bottom:0;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	visibility: hidden;
-	background-color: rgba(0, 0, 0, 0.4);
-	text-align: center;
-}
-.offer-view .offer-view-detail a{
+.offers .offer-view span{
+	font-size: 25px;
 	color: #fff;
-	text-decoration: none;
+	text-transform: uppercase;
+	top:50%;
+	left:50%;
+	position: absolute;
+	/*Cach khac
+	margin-left: -29px; */
+    /* margin-top: -17.5px; */
+    /*cach khac: doi toa do theo chieu rong cua span*/
+	transform: translate(-50%, -50%);
+	display: none;
 }
-.offer-view .offer-view-detail h3{
-	padding-top: 40%;
-} 
-.offer-view:hover > .offer-view-detail{
-	opacity: 1;
-	visibility: visible;
-} 
+.offers .offer-view img{
+	width: 100%;
+}
 
 .offers .offer-content{
 	width: 100%;
@@ -277,9 +283,12 @@ body{
 	font-family: fontDisplayReg;
 	margin:25px 0;
 }
-.offers .col-md-3, .offers .col-sm-3{
-	padding-left:10px;
-	padding-right:10px;
+
+.offer-box:hover .offer-content{
+	background-color: #e5e4e2;
+}
+.offer-box:hover .offer-view span{
+	display: block;
 }
 
 .hleft, .hright{
@@ -288,17 +297,17 @@ body{
 } 
 
 
-/*----Thong tin lien he----*/
+/**
+ *----Thong tin lien he----
+ */
+
 .form-contact{
 	margin-top: 88px;
 	border: 1px solid #eae9e8;
 	font-size: 14px;
 	padding: 35px 0px !important;
 }
-.form-contact .row{
-	padding:0;
-	margin: 0;
-}
+
 .form-contact ul{
 	margin: 0;
 	padding-left: 0;
@@ -316,7 +325,9 @@ body{
 	padding-right: 15px;
 	color: #000;
 }
-/*------Footer-------*/
+/**
+	*------Footer-------
+*/
 .footer{
 	padding:50px 0px;
 }
