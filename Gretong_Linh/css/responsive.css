@@ -64,16 +64,24 @@ and open the template in the editor.
     /***
 	 * Index
 	 */
-     .gretong-container{
-        width:85%;
-        padding:0;
-        margin: 0 auto;
-     }
-    .gretong-container .product img{
-        width:460px;
+    .gretong-container{
+        width:90%;
         margin: 0 auto;
     }
+    .gretong-nav .navbar-collapse li a{
+        padding-left: 50px;
+    }
 
+    .gretong-container .product  li{
+        width: 100%;
+        padding-right:25px;
+    }
+    .gretong-container .product img{
+        width: 100%;
+    }
+    .gretong-container .product .img-size2{
+        height: 250px;
+    }
     .offers{
         max-width: 100%;
         margin:0 auto;
@@ -82,6 +90,7 @@ and open the template in the editor.
     .hleft, .hright{
         width:30%;
     }
+    
 }
 
 
@@ -95,15 +104,31 @@ and open the template in the editor.
     .gretong-container{
         width:100%;
         margin: 0 auto;
-        padding:5px auto;
     }
+    .header #gretong-logo{
+        width: 50%;
+        height:50%;
+        margin-left:0;
+    }
+    .gretong-nav .navbar-collapse li a{
+        padding-left: 50px;
+    }
+    /*--Product list--*/
     .gretong-container .product li{
-        width:98%;
+        width:100%;
         margin:0 auto;
+        padding-left:10px;
+        padding-right:10px;
     }
     .gretong-container .product img{
         width:100%;
         height:auto;
+    }
+    .gretong-container .product .img-size2{
+       display: none;
+    }
+    .product .img-product .detail1{
+        height:75%;
     }
     .hleft, .hright{
         width:0;

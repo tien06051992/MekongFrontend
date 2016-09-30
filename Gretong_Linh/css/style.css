@@ -63,6 +63,12 @@ body{
 /*---Header---*/
 .header{
 	background-color:#e2eef6;
+	position: relative;
+	width: 100%;
+}
+.header .row{
+	padding-left:15px;
+    padding-right:15px;
 }
 .header #gretong-logo{
 	padding:43px 0;
@@ -101,7 +107,7 @@ body{
     right:20px;
 }
 
-/*---Navbar---*/
+/*---Menu---*/
 
 .gretong-nav{
 	margin: 0;
@@ -112,7 +118,7 @@ body{
 	border-color:#fff;
 	box-shadow: none;
 }
-/*-----navbar-----*/
+
 .gretong-menu{
 	background-color: #f5f5f5;
 	padding: 0;
