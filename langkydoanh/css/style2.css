@@ -2,6 +2,7 @@
 	margin: 0px;
 	padding: 0px;
 }
+
 .top_responsive{
 	background-color: #303030;
 }
@@ -24,18 +25,39 @@ margin-left: 5px;
    font-weight: bold;
    font-style: italic;
 }
+.wrapper{
+	background-color: #fbf5ea;
+}
 .my_menu{
 	background-color: #313131;
 }
 .my_menu ul li {
+	padding-top: 5px;
 	font-weight: bold;
+	color: #efeded;
+	line-height: 67px;
+}
+.my_menu ul li:hover{
+	padding-top: 5px;
+	font-weight: bold;
+	color: red;
+	line-height: 67px;
+
+}
+.acti{
+	background-color: #474747;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 }
 .slider{
-	background-image: url('../img/header.jpg');
+	background-image: url('../img/slider1.jpg');
 	height: auto;
+	padding-bottom: 30px;
 	margin-top: -20px;
 	width: 100%
-	height: 100%;
+	background-repeat: repeat;
+	/*padding-bottom: 20px;*/
+	
 }
 .left_slider h1{
 	font-size: 24px;
@@ -47,6 +69,19 @@ margin-left: 5px;
 	font-family: Helvetica ;
 	width: 100%;
 	height: 100%;
+}
+
+.text{
+	position: absolute;
+	width:100%
+	height: 70px;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5); 
+	border-left: 7px #dcd3bf solid ;
+	border-right: 7px #dcd3bf solid ;
+	border-bottom: 7px #dcd3bf solid ;
+	color: #ffffff ;
+	padding-left: 10px; 
 }
 .my_btn{
 	display: inline-block;
@@ -68,11 +103,35 @@ margin-left: 5px;
     border-color: #eff3f7;
     float: left;
 }
+.my_btn:hover{
+	display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    color: red;
+    background-color: #e6ebef;
+    border-color: #eff3f7;
+    float: left;
+}
+.cover_icon{
+	background-color: red;
+}
 .endslider{
 	width: 100%;
 	height: 50px;
 	background-color: #323232 ;
 	border-bottom: 8px  #4b4b4b solid;
+	/*margin-top: 30px;*/
 }
 .fix_hr {
     border-style: dotted;
@@ -90,7 +149,7 @@ margin-left: 5px;
 	font-weight: bold;
 	margin : 10px;
 }
-.spechly{
+.comment ul li:hover{
 	background-color: #484848;
 	color: white;
 	width: 220px;
@@ -121,10 +180,11 @@ margin-left: 5px;
 }
 .footers{
 	background-color: #2f2f2f;
+	height: 100%;
 
 }
 .navigation {
-    margin-top: 60px;
+    margin-top: 100px;
     margin: 10% auto;
     margin-left: 40px;
 }
@@ -141,6 +201,12 @@ margin-left: 5px;
     color: white;
     line-height: 20px;
 }
+.logo_contact {
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
 .logo_contact ul li {
 	float: right;
 	margin-left: 40px
@@ -149,12 +215,26 @@ margin-left: 5px;
 .navbar-brand{
 	margin-top: 10px;
 }
-.all{
-	height: 100% ;
-	width:100%;
-	position: relative;
-}
+
 .hinh_anh{
+	
+	width: 100%;
+	height: 100%; 
+}
+
+
+.all{
+	height: 100%;
+	width:483px ;
+	position: relative;
+	margin-top: 20px;
+	float: right;
+	border: 10px #d6cec0 solid;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	/*box-shadow: 10px 10px 10px 10px #ddd;*/
+}
+.img_fix{
 	
 	width: 100%;
 	height: 100%; 
@@ -163,6 +243,24 @@ margin-left: 5px;
 	position: absolute;
 	width:100%;
 	height: 100px;
-	bottom: 0;
 	background-color: #242424;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.icon_muiten{
+	background-color: #ffffff;
+}
+/*.new_title{
+	font-family: Georgia ;
+	font-size: 21px;
+}*/
+.logobottom{
+	margin-top: 20px;
+	/*margin-right: 10px;*/
+}
+.text_coppy {
+	color: #ffffff;
+}
+.logo1right{
+	float: right;
 }
