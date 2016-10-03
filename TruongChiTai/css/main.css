@@ -75,17 +75,34 @@
     margin-bottom: 0px;
 }
 
-.biruang-menu {
+.biruang-menu-container {
+    width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 81px;
+    z-index: 9999;
+}
+
+.biruang-menu-container .biruang-menu {
     font-size: 14px;
-    padding: 0px;
+    position: relative;
+    left: -15px;
+    width: 82%;
+    margin: auto;
 }
 
 .biruang-menu .biruang-menu-item {
     margin-right: 16px;
+    text-transform: uppercase;
 }
 
 .biruang-menu .biruang-menu-item .biruang-menu-item-link {
     padding-left: 0px;
+    color: #777;
+}
+
+.biruang-menu .biruang-menu-item .biruang-menu-item-link:hover {
+    background-color: transparent;
 }
 
 .biruang-menu .biruang-menu-item .biruang-menu-item-link:hover {
@@ -162,7 +179,6 @@
 .biruang-product-desc {
     font-size: 14px;
     color: #848588;
-    margin-left: 20px;
 }
 
 .biruang-title-popular-products {
@@ -200,7 +216,7 @@
 }
 
 .biruang-popular-product {
-    position: relative;
+    /*position: relative;*/
 }
 
 .biruang-popular-product .item {
@@ -211,9 +227,23 @@
 
 .biruang-popular-product .item .biruang-popular-img {
     height: 265px;
-    /*width: 270px;*/
     overflow: hidden;
     position: relative;
+}
+
+.biruang-popular-product .item .biruang-popular-img .biruang-zoom {
+    display: none;
+}
+
+.biruang-popular-product .item .biruang-popular-img:hover .biruang-zoom {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 115px;
+    left: 115px;
+    color: #ffffff;
+    font-size: 33px;
+    z-index: 9;
 }
 
 .biruang-popular-product .item .biruang-popular-img img {
@@ -225,15 +255,28 @@
 
 .biruang-popular-product .item .biruang-popular-img .biruang-product-img-slider {
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
+    border-top: 1px solid #ffffff;
 }
 
 .biruang-popular-product .item .biruang-popular-img .biruang-product-img-slider .biruang-slider-item {
-    width: 105px;
-    height: 105px;
+    width: 86.5px;
+    height: 86.5px;
+    float: left;
 }
 
-.biruang-popular-product .item .biruang-product-desc {}
+.biruang-popular-product .item .biruang-popular-img .biruang-product-img-slider .biruang-slider-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.biruang-popular-product .item .biruang-popular-img .biruang-product-img-slider .biruang-slider-item img:hover {
+    cursor: pointer;
+}
+
+.biruang-popular-product .item .biruang-product-desc {
+    margin-left: 18px;
+}
 
 .biruang-popular-product .item .biruang-product-desc h4 {
     margin-bottom: 0px;
@@ -337,7 +380,7 @@
 }
 
 .biruang-company-information {
-    margin-top: 65px;
+    margin-top: 45px;
     margin-bottom: 70px;
 }
 
@@ -345,7 +388,8 @@
     font-size: 22.65px;
     font-weight: bold;
     color: #606062;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
+    margin-top: 0px;
 }
 
 .biruang-company-information .biruang-brand {
@@ -377,14 +421,14 @@
     padding-left: 20px;
     font-style: italic;
     color: #848588;
-    margin-top: 85px;
+    margin-top: 65px;
 }
 
 .biruang-map-responsive {
     overflow: hidden;
     /*padding-bottom: 56.25%;*/
     position: relative;
-    height: 320px;
+    height: 305px;
 }
 
 .biruang-map-responsive iframe {
@@ -519,4 +563,7 @@
     width: 100%;
     padding: 0px;
     border-radius: 0;
+    top: 0px;
+    position: fixed;
+    left: 0px;
 }
