@@ -1,0 +1,522 @@
+#container .container {
+    /*width: 1170px;
+    margin: auto;*/
+}
+
+.biruang-navbar {
+    background-image: none;
+    background-color: #ffffff;
+    border: transparent 1px solid;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #7e7f84;
+    margin-bottom: 0px;
+}
+
+.biruang-navbar .biruang-navbar-container {
+    /*padding: 0px;*/
+}
+
+.biruang-navbar .biruang-nav-1 {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-right: -30px;
+}
+
+.biruang-navbar .biruang-nav-1 .biruang-nav-1-item {
+    margin-right: 30px;
+}
+
+.biruang-navbar .biruang-nav-1 .biruang-nav-1-item:not(:last-child) {
+    letter-spacing: 1px;
+}
+
+.biruang-navbar .biruang-nav-1 .biruang-nav-1-item p a {
+    color: #7e7f84;
+}
+
+.biruang-logo {
+    margin: 15px 0px;
+    font-size: 22.65px;
+    letter-spacing: -1px;
+}
+
+.biruang-header {
+    padding: 0px;
+}
+
+.biruang-corner-top-right {
+    margin-top: -12px;
+}
+
+.biruang-corner-top-right ul {
+    border: 1px solid #eeeeee;
+    padding-top: 10px;
+}
+
+.biruang-corner-top-right ul li {
+    margin: 0px;
+    padding: 0px 20px;
+}
+
+.no-border {
+    border: 0;
+    box-shadow: none;
+}
+
+.no-border-radius {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.biruang-divider {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.biruang-menu {
+    font-size: 14px;
+    padding: 0px;
+}
+
+.biruang-menu .biruang-menu-item {
+    margin-right: 16px;
+}
+
+.biruang-menu .biruang-menu-item .biruang-menu-item-link {
+    padding-left: 0px;
+}
+
+.biruang-menu .biruang-menu-item .biruang-menu-item-link:hover {
+    color: #f45a40 !important;
+}
+
+.biruang-menu-item .biruang-menu-dropdown {
+    padding: 30px 0px;
+}
+
+.biruang-menu-item .biruang-menu-dropdown .biruang-menu-dropdown-item a {
+    padding: 0px 20px;
+    color: #777;
+}
+
+.biruang-search-form {
+    /*padding: 0px;*/
+}
+
+.biruang-slider {
+    padding: 0px !important;
+}
+
+.biruang-slider img {
+    max-height: 660px;
+}
+
+.biruang-slider .biruang-indicators {
+    bottom: 120px;
+}
+
+.biruang-slider .biruang-caption {
+    left: 0px !important;
+    margin-bottom: 200px;
+    padding-left: 115px;
+    text-align: left;
+}
+
+.biruang-slider .biruang-caption h3 {
+    left: 0px !important;
+    font-size: 59.3px;
+}
+
+.biruang-slider .biruang-caption p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.biruang-slider .biruang-caption .biruang-button {
+    background-color: #f45a40;
+    background-image: none;
+    border: 0;
+    color: #ffffff;
+    padding: 10px 24px;
+    border-radius: 0px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+.biruang-products-container {
+    margin-top: 89.500px;
+}
+
+.biruang-product-title {
+    font-size: 22.65px;
+    color: #f56954;
+    text-transform: uppercase;
+}
+
+.biruang-product-title:hover {
+    color: #f56954;
+}
+
+.biruang-product-desc {
+    font-size: 14px;
+    color: #848588;
+    margin-left: 20px;
+}
+
+.biruang-title-popular-products {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.biruang-title-popular-products h1 {
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+    font-size: 22.65px;
+    color: #67686d;
+}
+
+.biruang-title-popular-products h1:before,
+.biruang-title-popular-products h1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 155px;
+    height: 1px;
+    content: '\a0';
+    background-color: #eeeeee;
+}
+
+.biruang-title-popular-products h1:before {
+    margin-left: -17%;
+}
+
+.biruang-title-popular-products h1:after {
+    margin-left: 3%;
+}
+
+.biruang-popular-product {
+    position: relative;
+}
+
+.biruang-popular-product .item {
+    min-height: 435px;
+    border: 1px solid #eeeeee;
+    /*width: 270px;*/
+}
+
+.biruang-popular-product .item .biruang-popular-img {
+    height: 265px;
+    /*width: 270px;*/
+    overflow: hidden;
+    position: relative;
+}
+
+.biruang-popular-product .item .biruang-popular-img img {
+    width: 99.99999%;
+    height: 100%;
+}
+
+.biruang-popular-product .item .biruang-popular-img .biruang-product-main-img {}
+
+.biruang-popular-product .item .biruang-popular-img .biruang-product-img-slider {
+    position: absolute;
+    bottom: 0;
+}
+
+.biruang-popular-product .item .biruang-popular-img .biruang-product-img-slider .biruang-slider-item {
+    width: 105px;
+    height: 105px;
+}
+
+.biruang-popular-product .item .biruang-product-desc {}
+
+.biruang-popular-product .item .biruang-product-desc h4 {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.biruang-popular-product .item .biruang-product-desc h4 a {
+    color: #68696e;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.biruang-popular-product .item .biruang-product-desc h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.biruang-popular-product .item .biruang-product-desc h5 a {
+    font-size: 14px;
+    font-style: italic;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+.biruang-popular-product .item .biruang-product-desc p {
+    font-size: 10px;
+}
+
+.biruang-popular-product .item .biruang-product-divider {
+    max-width: 220px;
+    height: 1px;
+    background-color: #eeeeee;
+    margin: auto;
+}
+
+.biruang-popular-product .item .biruang-product-sale {
+    padding: 15px 20px;
+}
+
+.biruang-popular-product .item .biruang-product-sale .biruang-product-price {
+    color: #f56954;
+}
+
+.biruang-popular-product .item .biruang-product-sale .biruang-product-interactive {}
+
+.biruang-popular-product .item .biruang-product-sale .biruang-product-interactive i {
+    color: #7e7f84;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.biruang-popular-product .item .biruang-product-sale .biruang-product-interactive i:hover {
+    color: #f56954;
+    font-size: 20px;
+}
+
+.biruang-popular-product .biruang-circle-right {
+    height: 40px;
+    width: 30px;
+    border-radius: 0 50px 50px 0;
+    -moz-border-radius: 0 50px 50px 0;
+    -webkit-border-radius: 0 50px 50px 0;
+    background: white;
+}
+
+.biruang-popular-product .biruang-circle-left {
+    height: 40px;
+    width: 30px;
+    border-radius: 50px 0 0 50px;
+    -moz-border-radius: 50px 0 0 50px;
+    -webkit-border-radius: 50px 0 0 50px;
+    background: white;
+}
+
+.biruang-popular-product .biruang-angle-left {
+    background-size: 100% auto;
+    font-size: 25px;
+    color: #a8a9ac;
+    position: absolute;
+    bottom: 235px;
+    padding: 8px 11px;
+    left: -10px;
+}
+
+.biruang-popular-product .biruang-angle-left:hover {
+    color: #f56954;
+}
+
+.biruang-popular-product .biruang-angle-right {
+    background-size: 100% auto;
+    font-size: 25px;
+    color: #a8a9ac;
+    position: absolute;
+    bottom: 235px;
+    padding: 8px 11px;
+    right: -10px;
+}
+
+.biruang-popular-product .biruang-angle-right:hover {
+    color: #f56954;
+}
+
+.biruang-company-information {
+    margin-top: 65px;
+    margin-bottom: 70px;
+}
+
+.biruang-company-information h2 {
+    font-size: 22.65px;
+    font-weight: bold;
+    color: #606062;
+    margin-bottom: 45px;
+}
+
+.biruang-company-information .biruang-brand {
+    color: #e65e4e;
+}
+
+.biruang-company-information .biruang-below-brand {
+    color: #848588;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.biruang-company-information .biruang-below-brand:last-child {
+    margin-top: 45px;
+}
+
+.biruang-company-information p a {
+    color: #656363;
+    font-size: 26px;
+    margin-right: 8px;
+}
+
+.biruang-company-information p a:hover {
+    color: #ef4035;
+}
+
+.biruang-company-information .biruang-central-information {
+    border-left: 1px solid #eeeeee;
+    padding-left: 20px;
+    font-style: italic;
+    color: #848588;
+    margin-top: 85px;
+}
+
+.biruang-map-responsive {
+    overflow: hidden;
+    /*padding-bottom: 56.25%;*/
+    position: relative;
+    height: 320px;
+}
+
+.biruang-map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+/* Footer */
+
+.biruang-footer {
+    background-color: #2a2d34;
+    padding-bottom: 20px;
+}
+
+.biruang-top-container {
+    background-color: #f45a40;
+    color: #ffffff;
+    min-height: 100px;
+}
+
+.biruang-footer .biruang-top-footer {
+    padding-top: 33px;
+}
+
+.biruang-footer .biruang-top-footer p {
+    font-size: 22.65px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.biruang-footer .biruang-top-footer .biruang-send-mail {
+    /*padding-right: 0px;*/
+}
+
+.biruang-footer .biruang-top-footer .biruang-send-mail-form {}
+
+.biruang-footer .biruang-top-footer .biruang-send-mail-form input {
+    border-radius: 0px;
+    margin-right: 12px;
+}
+
+.biruang-footer .biruang-top-footer .biruang-send-mail-form button {
+    border-radius: 0px;
+    background-color: #ff674f;
+    background-image: none;
+    border: none;
+    color: #ffffff;
+    padding: 8px 23px;
+}
+
+.biruang-footer .biruang-main-footer {
+    margin-top: 20px;
+    color: #7e7f84;
+}
+
+.biruang-footer .biruang-main-footer h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 22.65px;
+    margin-bottom: 17px;
+}
+
+.biruang-footer .biruang-main-footer {
+    margin-top: 20px;
+    color: #7e7f84;
+}
+
+.biruang-footer .biruang-main-footer input {
+    font-size: 12px;
+}
+
+.biruang-footer .biruang-main-footer textarea {
+    font-size: 12px;
+}
+
+.biruang-footer .biruang-main-footer button {
+    border-radius: 0px;
+    background-color: #ff674f;
+    background-image: none;
+    border: none;
+    color: #ffffff;
+    padding: 8px 15px;
+}
+
+.biruang-footer .biruang-main-footer p {
+    margin-bottom: 30px;
+}
+
+.biruang-footer .biruang-main-footer .biruang-post {
+    margin-bottom: 20px;
+}
+
+.biruang-footer .biruang-main-footer .biruang-post h3 {
+    margin: 0px;
+    margin-top: -5px;
+}
+
+.biruang-footer .biruang-main-footer .biruang-post h3 a {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0px;
+    margin-top: -5px;
+}
+
+.biruang-footer .biruang-main-footer .biruang-below-brand a i {
+    color: #ffffff;
+    font-size: 26px;
+    margin-right: 8px;
+}
+
+.biruang-footer .biruang-main-footer .biruang-below-brand a i:hover {
+    color: #ef4035;
+}
+
+.biruang-footer .biruang-footer-list {}
+
+.biruang-footer .biruang-footer-list ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.biruang-footer .biruang-footer-list ul a {
+    color: #7e7f84;
+}
+
+.affix {
+    z-index: 9999;
+    width: 100%;
+    padding: 0px;
+    border-radius: 0;
+}
