@@ -1,0 +1,269 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+   .sticky-link:visited, .sticky-link:hover{
+    text-decoration: none;
+   }
+   .abc{
+    float: left;
+    font-size: 2.375em;
+    text-align: center;
+   }
+   #container .container{
+   	max-width: 1290px;
+   	margin: auto;
+   }
+.sophia-bar{
+background-color: #f2f2f2;
+background-image: none;
+border: none;
+height: 40px;
+min-height: 40px;
+
+}
+.logo {
+    font-family: "Krinkes Decor PERSONAL USE";
+    font-size: 72px;
+    text-align: center;
+    color: black;
+    text-decoration: none;    
+
+}
+.sophia-nav{
+    border: none;
+    list-style: none;
+
+}
+
+a.logo:hover{
+	text-decoration: none;
+}
+.sophia-menu {
+    font-family: "Playfair Display";
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    font-style: italic;
+    min-height: 128px;
+    vertical-align:middle;
+    padding-left: 0;
+ 
+}
+.sophia-img{
+   padding: 0;
+    transition: opacity 1s;
+}
+.sophia-img:hover{opacity: 0.5; border: 1px solid black;}
+
+.sophia-button{
+  position: absolute;
+  bottom:30%;
+  left:50%;
+  margin-left: -47px;
+
+}
+.sophia-click{
+  position: absolute;
+  bottom:0px;
+  left:50%;
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  margin-left: -94px;
+  height: 0; 
+  border-left: 42px solid transparent;
+  border-right: 42px solid transparent;
+  
+  border-bottom: 42px solid black;
+
+}
+.sophia-click:hover{
+  text-decoration: none;
+  color: white;
+}
+.sophia-title {
+    font-family: "Playfair Display";
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    font-style: italic;
+    min-height: 50px;
+    position: relative;
+    padding-left: 0;
+    z-index: 1;
+    overflow: hidden;
+    
+}
+
+.sophia-title:before{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    overflow: hidden;
+    width: 20%;
+    height: 1px;
+    content: '\a0';
+    background-color: red;
+}
+.sophia-title:after {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    overflow: hidden;
+    width: 20%;
+    height: 1px;
+    content: '\a0';
+    background-color: red;
+}
+
+
+
+
+
+.sophia-footer{
+background-color: #141414;
+background-image: none;
+border: none;
+font-size: 14px;
+font-family: "Lato";
+color: #737373;
+
+}
+.sophia-customes{
+  background-color: #d9bf8f;
+
+}
+.sophia-list-footer{
+  list-style: none;
+  padding-left: 0px;
+
+}
+.sophia-tit{
+  font-size: 16px; 
+  font-weight: bold; 
+  color: white;
+  padding-bottom: 54px;
+}
+a.sophia-footer:link, a.sophia-footer:hover{
+  color: #737373;
+}
+.sobut{
+  margin: 20px 0;
+}
+.wrap-free-shipping{
+    padding: 0;
+    padding-right: 42px;
+    position: relative;
+  }
+.freeshipping-sticky{
+  font-weight: bold;
+  font-family: 'Lato';
+  width: 100%;
+  padding:20px 0;
+  border-radius: 0;
+  background-color: #d9bf8f;
+  color: white;
+  font-size: 30px;
+  height: 100px;
+}
+.freeshipping-icon{
+  font-size: 48px;
+  position: absolute;
+  left: 32px;
+  top:28px;
+}
+.warp-support{
+  padding: 0;
+  padding-left: 42px;
+  position: relative;
+}
+.support-sticky{
+  font-weight: bold;
+  font-family: 'Lato';
+  width: 100%;
+  padding:20px 0;
+  border-radius: 0;
+  background-color: #d9bf8f;
+  color: white;
+  font-size: 30px;
+  height: 100px;
+}
+.support-icon{
+  font-size: 48px;
+  position: absolute;
+  left: 69px;
+  top:23px;
+}
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 42px solid #d9bf8f;
+  position: absolute;
+  right: 1px;
+  top:0;
+}
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent; 
+  position: absolute;
+  border-right:42px solid #d9bf8f;
+  top: 0;
+  left: 1px;
+  }
+  
+ 
+.day-return-sticky{
+font-weight: bold;
+  font-family: 'Lato';
+  width: 100%;
+  padding:20px 0;
+  border-radius: 0;
+  background-color: black;
+  color: white;
+  font-size: 30px; 
+  height: 100px;
+}
+.warp-day-return{
+    padding: 0;
+    position: relative;
+}
+.dayreturn-arrow-left{
+  width: 0; 
+  height: 0; 
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent; 
+  position: absolute;
+  border-right:42px solid white;
+  top: 0;
+  right: 0; 
+}
+.dayreturn-arrow-right{
+  width: 0; 
+  height: 0; 
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 42px solid white;
+  position: absolute;
+  top: 0;
+  left: 0; 
+}
+
+.footer-nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+
+
+
