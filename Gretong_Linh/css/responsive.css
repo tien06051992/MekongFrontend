@@ -68,10 +68,14 @@ and open the template in the editor.
         width:90%;
         margin: 0 auto;
     }
+    .header-right  .header-right-item{
+        padding-bottom:20px;
+        width:100%;
+        text-align: left;
+    }
     .gretong-nav .navbar-collapse li a{
         padding-left: 50px;
     }
-
     .gretong-container .product  li{
         width: 100%;
         padding-right:25px;
@@ -101,14 +105,21 @@ and open the template in the editor.
     /***
 	 * Index
 	 */
+     .top-header .top-right{
+        display: none;
+    }
     .gretong-container{
         width:100%;
         margin: 0 auto;
     }
     .header #gretong-logo{
-        width: 50%;
-        height:50%;
-        margin-left:0;
+        width:100px;
+        height:100px;
+    }
+    .header-right  .header-right-item{
+        padding-bottom:20px;
+        width:100%;
+        text-align: left;
     }
     .gretong-nav .navbar-collapse li a{
         padding-left: 50px;
@@ -132,9 +143,6 @@ and open the template in the editor.
     }
     .hleft, .hright{
         width:0;
-    }
-    .top-header .top-right{
-        display: none;
     }
 
 }
