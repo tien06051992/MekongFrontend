@@ -2,11 +2,11 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title> Gretong </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -46,24 +46,35 @@
                 <div class="col-xs-4 col-sm-6 col-md-6">
                     <a href="" class="navbar-brand" id="gretong-logo"><img src="images/logo.jpg" alt="logo"></a>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                    <ul class="nav navbar-nav navbar-right gretong-navbar">
-                        <li><a href="#" class="border">LOGIN</a></li>
-                        <li><a href="#">REGISTER</a></li>
-                        <li><a href="#"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> My cart (0): $0</a></li>
-                        <li><a href="#" class="active">CHECKOUT</a></li>             
-                        <form>
-                            <div class="form-group input-header-pos">
-                                <input type="text" name="" class="input-header" placeholder=" &nbsp; Search">
-                                <i class="fa fa-search icon-pos" aria-hidden="true"></i>
-                            </div>
-                        </form>
-                    </ul>
-                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 header-right">
+                    <div class="nav navbar-nav navbar-right" style="padding-right:10px">           
+                        <div class="col-xs-12 col-sm-2 col-md-2 header-right-item"> 
+                            <a href="#" class="border">LOGIN</a>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-3 header-right-item"> 
+                            <a href="#">REGISTER</a>
+                        </div>
+                        <div class=" col-xs-12 col-sm-4 col-md-4 header-right-item"> 
+                            <a href="#"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> My cart (0): $0</a>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-2 header-right-item"> 
+                            <a href="#" class="active">CHECKOUT</a>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12"> 
+                            <form name="form-search">
+                                <div class="form-group input-header-pos">
+                                    <input type="text" name="search" class="input-header" placeholder=" &nbsp; &nbsp; Search">
+                                    <i class="fa fa-search icon-pos" aria-hidden="true"></i> 
+                                </div> 
+                            </form>
+                        </div>
+                    </div>
+                </div><!--/.menu-right-->
             </div>
         </div> <!--/.gretong-container-->
     </div> <!--/.end header-->
-    <nav class="navbar navbar-default gretong-nav" role="navigation">
+    <nav class="navbar navbar-default gretong-nav">
       <div class="gretong-container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
@@ -100,7 +111,7 @@
             <ul>
                 <li>
                     <div class="img-product"> 
-                        <img src="images/hinh1.jpg" class="img-responsive img-size1">
+                        <img src="images/hinh1.jpg" alt="shoes" class="img-responsive img-size1">
                         <div class="detail1">
                             <h3> NEW ARRIVALS </h3>
                             <p> REVIVE YOUR WARDROBE WITH CHIC KNITS </p>
@@ -110,7 +121,7 @@
                 </li>
                 <li>
                     <div class="img-product"> 
-                        <img src="images/hinh2.jpg" class="img-responsive img-size1">
+                        <img src="images/hinh2.jpg" alt ="Shirt" class="img-responsive img-size1">
                         <div class="detail1">
                             <h3> TUXEDO  </h3>
                             <p> REVIVE YOUR WARDROBE WITH CHIC KNITS </p>
@@ -121,7 +132,7 @@
 
                 <li>
                     <div class="img-product"> 
-                        <img src="images/hinh3.jpg" width="640px" height="250px" class="img-responsive img-size2">
+                        <img src="images/hinh3.jpg" width="640" height="250"  alt="Coat" class="img-responsive img-size2">
                         <div class="detail1">
                             <h3> SWEATER  </h3>
                             <p> REVIVE YOUR WARDROBE WITH CHIC KNITS </p>
@@ -131,7 +142,7 @@
                 </li>
                 <li>
                     <div class="img-product"> 
-                        <img src="images/hinh4.jpg" class="img-responsive img-size3">
+                        <img src="images/hinh4.jpg" alt="sport shoes" class="img-responsive img-size3">
                         <div class="detail2">
                             <p class="pleft"> Trekking Shoes </p>
                             <p class="pright"> <a href="#"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
@@ -141,7 +152,7 @@
                 </li>
                 <li>
                     <div class="img-product"> 
-                        <img src="images/hinh5.jpg" class="img-responsive img-size3">
+                        <img src="images/hinh5.jpg" class="img-responsive img-size3" alt="glasses">
                         <div class="detail2">
                             <p class="pleft">Casual Glasses </p>
                             <p class="pright"> <a href="#"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
@@ -151,7 +162,7 @@
                 </li>
                 <li>
                     <div class="img-product"> 
-                        <img src="images/hinh6.jpg" class="img-responsive img-size3">
+                        <img src="images/hinh6.jpg" alt ="T-shirt" class="img-responsive img-size3">
                         <div class="detail1">
                             <h3> FRESH LOOK T-SHIRT  </h3>
                             <a href="#"> SHOP NOW </a>
@@ -160,7 +171,7 @@
                 </li>
                 <li>
                     <div class="img-product"> 
-                        <img src="images/hinh7.jpg" class="img-responsive img-size3">
+                        <img src="images/hinh7.jpg" alt="watch" class="img-responsive img-size3">
                         <div class="detail2">
                             <p class="pleft">Elegant Watches</p>
                             <p class="pright"> <a href="#"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
@@ -184,7 +195,7 @@
         <div class="row">
             <div class="col-xs-6 col-sm-3 col-md-3 offer-box">
                 <div class="offer-view">
-                    <img src="images/spec1.jpg" class="img-responsive" alt="">
+                    <img src="images/spec1.jpg" class="img-responsive" alt="Offer1">
                     <span> VIEW </span>
                 </div>
                 <div class="offer-content">
@@ -193,7 +204,7 @@
             </div>
             <div class="col-xs-6 col-sm-3 col-md-3 offer-box">
                 <div class="offer-view">
-                    <img src="images/spec2.jpg" class="img-responsive" alt="">
+                    <img src="images/spec2.jpg" class="img-responsive" alt="Offer2">
                     <span> VIEW </span>
                 </div>
                 <div class="offer-content">
@@ -202,7 +213,7 @@
             </div>
             <div class="col-xs-6 col-sm-3 col-md-3 offer-box">
                 <div class="offer-view">
-                    <img src="images/spec3.jpg" class="img-responsive" alt="">
+                    <img src="images/spec3.jpg" class="img-responsive" alt="Offer3">
                     <span> VIEW </span>
                 </div>
                 <div class="offer-content">
@@ -211,7 +222,7 @@
             </div>
             <div class="col-xs-6 col-sm-3 col-md-3 offer-box">
                 <div class="offer-view">
-                    <img src="images/spec4.jpg" class="img-responsive" alt="">
+                    <img src="images/spec4.jpg" class="img-responsive" alt="Offer4">
                     <span> VIEW </span>
                 </div>
                 <div class="offer-content">
@@ -231,7 +242,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6">
                 <ul class="icon-social">
-                    FOLLOW US ON
+                    <li>FOLLOW US ON </li>
                     <li style="padding-left:30px"> <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
                     <li><a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
                     <li> <a href=""><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a></li>

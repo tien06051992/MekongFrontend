@@ -53,7 +53,8 @@ body{
 .top-header .top-left ul li a{
 	color: #fff;
 	line-height: 30px;
-	padding-right:20px;  
+	padding-right:20px; 
+	text-decoration: none; 
 }
 .top-header .top-right{
 	float: right;
@@ -69,14 +70,12 @@ body{
 	width: 100%;
 }
 .header .row{
-	padding-left:15px;
-    padding-right:15px;
+	padding: 0;
 }
 .header #gretong-logo{
 	padding:43px 0;
-	margin-left:-15px;
 }
-.header ul li{
+/*.header ul li{
 	margin-left:15px;
 }
 .header ul li a{
@@ -91,14 +90,34 @@ body{
 }
 .header .border{
 	border: 1px solid #e5e4e2;
+}*/
+
+.header-right{
+	text-align: center;
+	margin-top: 25px;
+}
+.header-right  .row{
+	padding-right:20px;
+}
+.header-right a{
+	padding:10px 20px;
+	color:#3f3d3d;
+	text-decoration: none;
+}
+.header-right .border{
+	border: 1px solid #e5e4e2;
+}
+.header-right a.active,.form-contact span{
+	background-color: #000;
+	color: #fff;
+	border-radius: 0;
 }
 .input-header{
 	height:40px;
 	background-color: #e2eef6;
 	border: 1px solid #e2eef6;
-	width: 95%;
-	margin-top: 13px;
-	margin-left: 20px;
+	width: 100%;
+	margin-top: 23px;
 }
 .input-header-pos {
 	position: relative;
@@ -170,11 +189,11 @@ body{
 }
 .img-product .detail1{
 	position: absolute;
-	bottom:0;
+	bottom:-200px;
 	width: 100%;
 	height: 60%;
 	text-align: center;
-	transition: all 0.5s;
+	transition: all .5s  linear 0s;
 	opacity:0;
 	visibility: hidden;
 }
@@ -189,6 +208,10 @@ body{
 	font-size: 14px;
 	margin:35px 0px 65px 0px;
 }
+.img-product .detail1 a:hover{
+	border: 1px solid #e2eef6;
+	color:#e2eef6;
+}
 .img-product .detail1 h3{
 	font-size: 22px;
 	font-family: fontDisplay;
@@ -199,7 +222,7 @@ body{
 	position: absolute;
 	bottom:0;
 	left: -100px;
-	transition: all .5s;
+	transition: all .5s  ease-out 0s;
 	opacity:0;
 	visibility: hidden;
 	font-family: fontDisplay;
@@ -220,6 +243,7 @@ body{
 .img-product:hover > .detail1{
 	visibility: visible;
 	opacity: 1;
+	bottom:0;
 }
 .img-product:hover > .detail2{
 	visibility: visible;
