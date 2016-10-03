@@ -3,6 +3,22 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  .sophia-brand{
+    padding: 0;
+    transition: opacity 1s;
+    cursor: pointer;
+  }
+   .sophia-header{
+    background-color: #f2f2f2;
+    height: 40px;
+   }
+   .btn-dd{
+        border-radius: 0px;
+        background-color: black;
+        background-image: none;
+        font-style: normal;
+        color: white;
+   }
 
    .sticky-link:visited, .sticky-link:hover{
     text-decoration: none;
@@ -17,11 +33,11 @@
    	margin: auto;
    }
 .sophia-bar{
-background-color: #f2f2f2;
-background-image: none;
-border: none;
-height: 40px;
-min-height: 40px;
+    background-color: #f2f2f2;
+    background-image: none;
+    border: none;
+    height: 40px;
+    min-height: 40px;
 
 }
 .logo {
@@ -35,6 +51,7 @@ min-height: 40px;
 .sophia-nav{
     border: none;
     list-style: none;
+    
 
 }
 
@@ -55,6 +72,8 @@ a.logo:hover{
 .sophia-img{
    padding: 0;
     transition: opacity 1s;
+    width: 100%;
+    cursor: pointer;
 }
 .sophia-img:hover{opacity: 0.5; border: 1px solid black;}
 
@@ -64,6 +83,10 @@ a.logo:hover{
   left:50%;
   margin-left: -47px;
 
+}
+.sophia-collection{
+  position: relative;
+  margin-bottom: 10px;
 }
 .sophia-click{
   position: absolute;
@@ -79,7 +102,15 @@ a.logo:hover{
   border-right: 42px solid transparent;
   
   border-bottom: 42px solid black;
+  transition: all .5s  linear 0s;
+  opacity:0;
+  visibility: hidden;
 
+}
+.sophia-collection:hover > .sophia-click{
+  visibility: visible;
+  opacity: 1;
+  bottom:0;
 }
 .sophia-click:hover{
   text-decoration: none;
@@ -107,7 +138,7 @@ a.logo:hover{
     width: 20%;
     height: 1px;
     content: '\a0';
-    background-color: red;
+    background-color: #d9bf8f;
 }
 .sophia-title:after {
     position: absolute;
@@ -117,7 +148,7 @@ a.logo:hover{
     width: 20%;
     height: 1px;
     content: '\a0';
-    background-color: red;
+    background-color: #d9bf8f;
 }
 
 
@@ -234,6 +265,12 @@ font-weight: bold;
 .warp-day-return{
     padding: 0;
     position: relative;
+}
+.dayreturn-icon{
+  font-size: 48px;
+  position: absolute;
+  left: 69px;
+  top:23px;
 }
 .dayreturn-arrow-left{
   width: 0; 
