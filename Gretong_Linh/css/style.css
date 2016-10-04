@@ -113,7 +113,7 @@ body{
 .input-header{
 	height:40px;
 	background-color: #e2eef6;
-	border: 1px solid #e2eef6;
+	border: #e2eef6 solid 1px;
 	width: 100%;
 	margin-top: 23px;
 }
@@ -124,6 +124,7 @@ body{
     position:absolute;
     bottom:12px;
     right:12px;
+    font-size: 20px;
 }
 
 /**
@@ -329,7 +330,10 @@ body{
 	font-size: 14px;
 	padding: 35px 0px !important;
 }
-
+.form-contact .form-contact-input{
+	border-radius:0;
+	width: 99%;
+}
 .form-contact ul{
 	margin: 0;
 	padding-left: 0;
@@ -352,11 +356,28 @@ body{
 */
 .footer{
 	padding:50px 0px;
+	font-size: 13px;
 }
 .footer h4{
 	font-size: 15px;
 	font-weight:500;
 	font-family: fontDisplayReg;
+	margin-bottom: 15px;
+}
+.footer .footer-location{
+	padding:5px 20px;
+	margin-left: 10px;
+	border: 1px solid #e5e4e2;
+	font-family: fontRoboto;
+	font-size: 13px;
+}
+.footer .footer-location:hover{
+	background-color: #e5e4e2;
+}
+.footer a{
+	color:#3f3d3d;
+	text-decoration: none;
+	cursor: pointer;
 }
 .footer .last-footer p{
 	margin-top: 56px;
