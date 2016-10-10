@@ -1,0 +1,105 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+#container .container{
+	max-width: 950px;
+	margin: auto;
+}
+.heading-background{
+	background-color: #1a1e1c;
+	background-image: none;
+	margin: 0;
+	border: none;
+	border-radius: 0;
+}
+.company-brand{
+	font-size: 41.44px;
+	font-family: 'Museo';
+	color: #f4f4f4;
+}
+.menu-color >li >a{
+	color: #f4f4f4;
+	font-family: 'Tahoma';
+	font-size: 14px;
+}
+.menu-color .active{
+	text-decoration: underline;
+}
+.heading-text h2{
+	font-size: 24px;
+	font-family: 'Georgia';
+	color: white;
+}
+.heading-text p{
+	font-size: 14px;
+	font-family: 'Georgia';
+	color: white;
+}
+.body-text{
+	font-size: 12px;
+	font-family: 'Tahoma';
+	color: black;
+}
+.line{
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+.web-background{
+	background-color: #f2f2f2;
+	background-image: none;
+}
+.topic-body{
+	border: 1px solid;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+
+.menu-footer{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float: right;
+}
+.menu-footer li{
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-right: 1px solid white;
+}
+
+.angle-right {
+  width: 50px; 
+  height: 50px; 
+  border-bottom-right-radius:100%; 
+  border-top-right-radius:100%;
+  border-right: 2px solid black;
+  position: absolute;
+  right: 0;
+  top: 40%;
+  background-color: white;
+
+}
+.angle-left {
+  width: 50px; 
+  height: 50px; 
+  border-bottom-left-radius:100%; 
+  border-top-left-radius:100%;
+  border-left: 2px solid black;
+  position: absolute;
+  left: 0;
+  top: 40%;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+

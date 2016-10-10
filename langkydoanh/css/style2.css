@@ -208,7 +208,7 @@ margin-left: 5px;
 	padding-bottom: 20px;
 }
 .logo_contact ul li {
-	float: right;
+	float: left; /*left*/
 	margin-left: 40px
 	padding: 1px;
 }

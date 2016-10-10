@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/*
+    Created on : Nov 1, 2013, 2:54:26 PM
+    Author     : Archie
+*/
+
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+    .slide-caption {
+        right: 0;
+    }
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .slide-caption {
+        right: 0;
+    }
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /***
+	 * Index
+	 */
+    .img-logo img {
+        width: 60%
+    }
+    .header-menu {
+        height: 50px;
+    }
+    .slide-caption {
+        right: 0;
+    }
+    .slide-caption>h2 {
+        font-size: 12px;
+    }
+    .slide-caption>h2>span {
+        font-size: 18px;
+    }
+    .slide-img {
+        display: none;
+    }
+    .slide-indicators {
+        bottom: 35%;
+    }
+    .slide-indicators li {
+        width: 18px;
+        height: 18px;
+        font-size: 9px;
+    }
+    .slide-indicators .active {
+        width: 18px;
+        height: 18px;
+    }
+    .infomation {
+        width: 100%;
+    }
+}
+
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+    /***
+	 * Index
+	 */
+    .img-logo img {
+        width: 60%
+    }
+    .img-logo {
+        padding-right: 0;
+    }
+    .header-menu {
+        height: 50px;
+    }
+    .slide-caption {
+        right: 0;
+        width: 40%
+    }
+    .slide-caption>h2 {
+        font-size: 12px;
+    }
+    .slide-caption>h2>span {
+        font-size: 15px;
+    }
+    .slide-caption>p {
+        display: none;
+    }
+    .slide-img {
+        display: none;
+    }
+    .slide-indicators {
+        bottom: 50%;
+    }
+    .slide-indicators li {
+        width: 18px;
+        height: 18px;
+        font-size: 9px;
+    }
+    .slide-indicators .active {
+        width: 18px;
+        height: 18px;
+    }
+    .infomation {
+        width: 100%;
+    }
+}
