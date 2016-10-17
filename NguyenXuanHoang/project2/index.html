@@ -66,13 +66,15 @@
                     <li role="presentation"><a href="#" style="padding-bottom: 10px; padding-top: 10px;">LASTEST NEWS</a></li>
                     <li role="presentation"><a href="#" style="padding-bottom: 10px; padding-top: 10px;">ABOUT US</a></li>
                 </ul>
-            </div> 
+            </div>
         </div>
-        <div class="container">
-            Home<br><br>
+        <div id="ctn-content" class="container">
+            Home
+            <br>
+            <br>
             <!-- Example row of columns -->
             <div class="row">
-                <div class="col-md-9" style="background-color: white;">
+                <div id="main-content" class="col-md-9" style="background-color: white;">
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="margin-top: 15px;">
                         <!-- Indicators -->
                         <ol class="carousel-indicators slide-indicators" style="margin-left: 0;">
@@ -171,28 +173,28 @@
                         <p class="top-heading">Naturetour wildlife holidays in Europe focus on the outstanding wildlife habitats and species that can be found in the region.</p>
                     </div>
                 </div>
-                <div class="col-md-3" style="background-color: #f4f2ec">
+                <div id="main-right-bar" class="col-md-3" style="background-color: #f4f2ec">
                     <h2 class="menu-search">HOLIDAY SEARCH</h2>
                     <p class="menu-search">Start your holiday search here:</p>
-                    <select class="form-control input-sm" style="margin-bottom: 10px;">
+                    <select id="se1" class="form-control input-sm se-input" style="margin-bottom: 10px;">
                         <option value="volvo">Select Region</option>
                         <option value="saab">Select Region</option>
                         <option value="mercedes">Select Region</option>
                         <option value="audi">Select Region</option>
                     </select>
-                    <select class="form-control input-sm" style="margin-bottom: 10px;">
+                    <select id="se2" class="form-control input-sm se-input" disabled style="margin-bottom: 10px;">
                         <option value="volvo">Select Category</option>
                         <option value="saab">Select Category</option>
                         <option value="mercedes">Select Category</option>
                         <option value="audi">Select Category</option>
                     </select>
-                    <select class="form-control input-sm" style="margin-bottom: 10px;">
+                    <select id="se3" class="form-control input-sm se-input" disabled style="margin-bottom: 10px;">
                         <option value="volvo">Select Date</option>
                         <option value="saab">Select Date</option>
                         <option value="mercedes">Select Date</option>
                         <option value="audi">Select Date</option>
                     </select>
-                    <select class="form-control input-sm" style="margin-bottom: 10px;">
+                    <select id="se4" class="form-control input-sm se-input" disabled style="margin-bottom: 10px;">
                         <option value="volvo">Select Price</option>
                         <option value="saab">Select Price</option>
                         <option value="mercedes">Select Price</option>
@@ -208,8 +210,8 @@
                     <h2 class="menu-search">QUICK SEACH</h2>
                     <p class="menu-search">Enter a country or tour code:</p>
                     <form>
-                        <input type="text" class="form-web" placeholder="Country/Code ...">
-                        <a href="#" class="btn btn-success btn-sm">SEARCH</a>
+                        <input type="text" class="form-web " placeholder="Country/Code ...">
+                        <a href="#" class="btn btn-success btn-sm se-input" style="float: right;">SEARCH</a>
                     </form>
                     <hr>
                     <h2 class="menu-search">NEWSLETTER SIGNUP</h2>
@@ -217,7 +219,7 @@
                     <form>
                         <input type="text" class="form-control" placeholder="Enter Name ..." style="margin-bottom: 10px;">
                         <input type="text" class="form-web" placeholder="Enter Name ...">
-                        <a href="#" class="btn btn-success btn-sm">SIGN UP</a>
+                        <a href="#" class="btn btn-success btn-sm se-input" style="float: right;">SIGN UP</a>
                     </form>
                     <hr>
                     <h2 class="menu-search">LATEST NEWS</h2>
@@ -294,14 +296,15 @@
                 <h2 style="font-family: 'Arial';font-size: 11px;color: #3a3731; font-weight: bold;">&copy; Naturetour 2010.</h2>
                 <p style="font-family: 'Arial';font-size: 11px;color: #3a3731;">No portion of this website may be reproduced without the prior written consent of Naturetour. All rights reserved.</p>
             </footer>
-            <!-- /container -->
         </div>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>
-        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
-        </script>
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
+        <!-- /container -->
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

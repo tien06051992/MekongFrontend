@@ -18,6 +18,9 @@ and open the template in the editor.
     .slide-caption {
         right: 0;
     }
+    #main-content{
+        min-height: 1064px;
+    }
 }
 
 

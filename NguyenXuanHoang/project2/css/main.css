@@ -118,7 +118,15 @@
     color: white;
     text-indent: 0px;
 }
-
+.se-input{
+    cursor: pointer;
+    box-shadow: 0px 0px 4px #7d8e8e;
+}
+.se-input[disabled]{
+    background-color: #EEE;
+    opacity: 0.5;
+    cursor: pointer;
+}
 .slide-indicators .active {
     width: 22px;
     height: 22px;
