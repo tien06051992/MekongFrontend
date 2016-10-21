@@ -1,0 +1,465 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.background-home {
+    background-image: none;
+    background-color: #f8f8f8;
+}
+.img-header {
+    position: absolute;
+}
+#container.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.bar-index {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    height: 177px;
+    margin-bottom: 0;
+}
+
+.se-header {
+    border: none;
+    width: 32px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Raleway';
+    background-color: transparent;
+}
+.left-bar {
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: black;
+}
+.left-bar>div{
+    margin-bottom: 30px;
+}
+.menu-left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #26d2fc;
+}
+
+.menu-left>ul>li>a {
+    display: block;
+    color: #000;
+    padding: 8px 40px;
+    text-decoration: none;
+}
+
+.menu-left>ul>li>a:hover {
+    background-color: #555;
+    color: white;
+}
+.menu-left h2 {
+    color: white;
+    margin: 0;
+    padding: 25px 40px;
+    font-size: 14px;
+    background-color: black;
+}
+.menu-left>ul>li>a:visited {
+    color: #333333;
+}
+.articles {
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.articles h2 {
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 25px;
+    font-style: italic;
+}
+
+.articles>ul {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.articles>ul>li>a {
+    text-decoration: none;
+    color: #555555;
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+.articles>a{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.main-content {
+    background-color: #f8f8f8;
+    background-image: none;
+    font-family: 'Roboto';
+    font-size: 12px;
+    padding: 0;
+}
+.main-content .row{
+    margin: 0;
+}
+.step-cart{
+    padding: 13px 40px;
+}
+.step-cart a{
+    font-size: 24px;
+    color: #aaaaaa;
+    margin-left: 35px;
+}
+.step-cart>.active {
+    color: #ff0101;
+}
+.step-cart a:first-child{
+    margin-left: 0;
+}
+.web-links{
+    color: #faef03;
+    padding: 24px 40px;    
+}
+.web-links>a{
+    color: black;
+    padding-right: 0;
+}
+.main-content>h2 {
+    margin: 0;
+    padding: 32px 27px;
+    font-size: 22px;
+}
+.back-page{
+    float: right;
+    color: black;
+    padding: 24px 40px;
+    
+}
+.checkout-content{
+    padding-top: 57px;
+}
+.guest-checkout{
+    padding-right: 0;
+}
+.guest-checkout h2{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+.guest-checkout h2 span{
+    font-size: 36px;
+}
+.guest-checkout p{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.guest-checkout hr{
+    margin-top: 5px;
+}
+.guest-checkout>span{
+    color: #808080;
+}
+.guest-checkout form{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.guest-checkout li{
+    font-weight: bold;
+}
+.guest-checkout ul{
+    padding-left: 20px;
+}
+.guest-checkout button{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 0;
+    background-color: #333333;
+    background-image: none;
+    margin-top: 20px;
+    position: relative;
+    margin-left: -93px;
+    left: 50%;
+}
+.member-checkout h2{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+.member-checkout h2 span{
+    font-size: 36px;
+}
+.member-checkout p{
+    color: #808080;
+    margin-bottom: 20px;
+}
+.guest-checkout>span{
+    color: #808080;
+}
+.member-checkout form{
+    font-weight: bold;
+}
+.member-checkout form input{
+    margin-bottom: 15px;
+    width: 100%;
+    font-weight: normal;
+    padding: 5px;
+}
+.member-checkout span{
+    color: red;
+    font-size: 11px;
+}
+.member-checkout span a{
+    color: black;
+    font-size: 12px;
+    float: right;
+    text-decoration: underline;
+    font-style: italic;
+}
+.member-checkout button{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 0;
+    background-color: #333333;
+    background-image: none;
+    margin-top: 72px;
+    left: 50%;
+    position: relative;
+    margin-left: -32px;
+}
+.review-cart{
+    background-color: #fb4d01;
+    background-image: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.review-cart h3{
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+.review-cart p{
+    margin: 0;
+    padding: 15px 20px;
+}
+.review-cart p:last-child{
+    font-size: 16px;
+}
+.review-cart p span {
+    float: right;
+}
+.review-cart button{
+    border-radius: 0;
+    background-color: #333333;
+    background-image: none;
+    color: white;
+    border-color: black;
+    font-size: 28px;
+    font-weight: normal;
+    padding: 0 25px;
+    margin: 60px 30px;
+    margin-top: 45px;
+}
+.ship-info {
+    font-size: 12px;
+    font-family: 'Roboto';
+    color: black;
+}
+.ship-info h2{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+.ship-info p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 35px;
+}
+.ship-info input {
+    margin-bottom: 3px;
+    margin-top: 9px;
+    padding: 7px;
+    width: 100%;
+}
+.ship-info select {
+    margin-bottom: 3px;
+    margin-top: 9px;
+    padding: 7px;
+    width: 100%;
+}
+.ship-info img{
+    padding-top: 21px;
+}
+select.phonenumber{
+    width: 77px;
+    margin-right: 5px;
+}
+input.phonenumber{
+    width: 150px;
+}
+select.expirationdate{
+    width: 115px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.checkbox-page{
+    font-size: 12px;
+    font-family: 'Roboto';
+    color: black;
+    padding-top: 27px;
+    padding-bottom: 60px;
+}
+.playorder button{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 0;
+    background-color: #333333;
+    background-image: none;
+    left: 50%;
+    position: relative;
+    margin-left: -100px;
+    width: 200px;
+}
+.playorder{
+    padding-bottom: 120px;
+}
+.contact-page {
+    text-align: center;
+    font-size: 64px;
+    color: white;
+}
+
+.contact-page i {
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.img-page {
+    width: 100%;
+}
+
+
+.top-footer {
+    background-color: #373737;
+    background-image: none;
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto';
+    padding-bottom: 67px;
+    padding-top: 77px;
+}
+
+.footer-list h2 {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-list>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-list input {
+    background-color: #fff51f;
+    border-radius: 0;
+    color: #333333;
+    border: none;
+}
+
+.footer-list button {
+    border-radius: 0;
+    background-color: black;
+    background-image: none;
+    color: white;
+    border-color: black;
+}
+
+.footer-list p {
+    font-size: 14px;
+}
+
+.bottom-footer {
+    background-color: #333333;
+    background-image: none;
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto';
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.bottom-footer p {
+    margin: 0;
+    float: left;
+}
+
+.bottom-footer a {
+    float: right;
+    color: white;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .img-slide {
+        height: auto;
+    }
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .img-slide {
+        height: auto;
+    }
+   
+    .brand-logo {
+        width: 60%;
+    }
+}
+
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+    .img-slide {
+        height: auto;
+    }
+    .brand-logo {
+        width: 45%;
+    }
+    .carousel-top{
+    	display: none;
+
+}
